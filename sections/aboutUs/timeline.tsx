@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RoadMap from "../../public/roadmap-timeline.svg"
 
 export default function TimeLine() {
   return (
@@ -11,7 +12,7 @@ export default function TimeLine() {
         </div>
         <div className="w-full hidden lg:block relative">
           <Image
-            src="/roadmap-timeline.svg"
+            src={RoadMap}
             height={1080}
             width={1920}
             alt="/"

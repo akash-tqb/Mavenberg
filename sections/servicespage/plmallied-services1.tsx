@@ -1,4 +1,9 @@
 import Image from "next/image";
+import EnterpriseIntegration from "../../public/services/enterpriseintegration.svg";
+import PlmImplementation from "../../public/services/plmimplementation.svg";
+import AlmImplementation from "../../public/services/almimplementation.svg";
+import DataMigration from "../../public/services/datamigration.svg";
+import TCUpgrade from "../../public/services/teamcenterupgrade.svg";
 
 export default function PlmAlliedServices1() {
   return (
@@ -8,7 +13,7 @@ export default function PlmAlliedServices1() {
           <div className="lg:w-[60%] text-maven-white flex flex-col items-center justify-center">
             <div className="text-justify">
               <h1 className="mb-6 font-sans text-xl font-bold text-maven-white sm:text-5xl sm:leading-none">
-                PLM & Allied{' '}<span className="text-maven-blue">Services</span>
+                PLM & Allied <span className="text-maven-blue">Services</span>
               </h1>
               <p className="mb-5">
                 We combine new approaches to business strategy and technology
@@ -132,14 +137,19 @@ export default function PlmAlliedServices1() {
             </p>
           </div>
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src="/services/enterpriseintegration.svg" alt="" width={300} height={450} />
+            <Image
+              src={EnterpriseIntegration}
+              alt=""
+              width={300}
+              height={450}
+            />
           </div>
         </div>
       </div>
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="flex flex-col justify-between lg:flex-row">
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src="/services/plmimplementation.svg" alt="" width={300} height={450} />
+            <Image src={PlmImplementation} alt="" width={300} height={450} />
           </div>
           <div className="lg:w-[60%] space-y-6 text-maven-white text-justify">
             <h1 className="text-maven-orange text-xl font-bold">
@@ -284,14 +294,14 @@ export default function PlmAlliedServices1() {
             </p>
           </div>
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src="/services/almimplementation.svg" alt="" width={300} height={450} />
+            <Image src={AlmImplementation} alt="" width={300} height={450} />
           </div>
         </div>
       </div>
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="flex flex-col justify-between lg:flex-row">
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src="/services/datamigration.svg" alt="" width={300} height={450} />
+            <Image src={DataMigration} alt="" width={300} height={450} />
           </div>
           <div className="lg:w-[60%] space-y-6 text-maven-white text-justify">
             <h1 className="text-maven-orange text-xl font-bold">
@@ -393,7 +403,7 @@ export default function PlmAlliedServices1() {
             </p>
           </div>
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src="/services/teamcenterupgrade.svg" alt="" width={300} height={450} />
+            <Image src={TCUpgrade} alt="" width={300} height={450} />
           </div>
         </div>
       </div>

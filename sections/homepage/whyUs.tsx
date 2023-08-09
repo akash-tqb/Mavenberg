@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Mission from "../../public/mission.svg"
 
 export default function WhyUs() {
   return (
@@ -243,7 +244,7 @@ export default function WhyUs() {
         </div>
         <div className="lg:flex items-center hidden">
           <Image
-            src="/mission.svg"
+            src={Mission}
             width={400}
             height={400}
             alt="design circle"

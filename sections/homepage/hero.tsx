@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import HeroImage from "../../public/heroImage.svg"
 
 export default function Hero() {
   return (
@@ -20,7 +21,7 @@ export default function Hero() {
           </Link>
           <div className="h-96 w-96 hidden lg:block">
             <Image
-              src="/heroImage.svg"
+              src={HeroImage}
               alt="heroImage"
               width={400}
               height={200}

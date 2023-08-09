@@ -1,4 +1,5 @@
 import Image from "next/image";
+import WhyUs from "../../public/whyusimage.svg"
 
 export default function Values() {
   return (
@@ -121,7 +122,7 @@ export default function Values() {
           </div>
           <div className="lg:w-1/2 flex items-center justify-center">
             <Image
-              src="/whyusimage.svg"
+              src={WhyUs}
               height={500}
               width={500}
               alt="Mission"
