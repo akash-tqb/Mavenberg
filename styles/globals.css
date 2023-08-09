@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-shadow{
+  box-shadow: 0 0 6px 2px #03e5e5;
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-nav-shadow{
+    box-shadow: 0 0 6px 2px #03e5e5;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#03E5E5;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFAB03;
+}
