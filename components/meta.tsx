@@ -1,4 +1,3 @@
-
 import Head from "next/head";
 export default function Meta() {
   return (
@@ -97,10 +96,18 @@ export default function Meta() {
         name="msapplication-TileImage"
         content="/favicon/mstile-150x150.png"
       /> */}
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link
+        rel="shortcut icon"
+        href="https://www.mavenberg.com/wp-content/uploads/2021/03/cropped-favicon.ico-32x32.png"
+      />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mavenberg Innovations India Private Limited | Showing the next way</title>
-      <meta name="description" content="Discover seamless product lifecycle management with our cutting-edge products." />
+      <title>
+        Mavenberg Innovations India Private Limited | Showing the next way
+      </title>
+      <meta
+        name="description"
+        content="Discover seamless product lifecycle management with our cutting-edge products."
+      />
 
       {/* <link rel="canonical" href={imetaData.pageUrl} />
       <meta name="twitter:card" content="summary_large_image" />

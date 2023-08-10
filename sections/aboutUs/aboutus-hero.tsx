@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CEO from "../../public/RajaramSellamuthu.jpg";
 
 export default function AboutUsHero() {
   return (
@@ -6,11 +7,17 @@ export default function AboutUsHero() {
       <div className="flex flex-col gap-12 justify-between lg:flex-row mb-20">
         <div className="flex flex-col max-w-xl">
           <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
-            About{' '}
-            <span className=" text-maven-blue ">Us</span>
+            About <span className=" text-maven-blue ">Us</span>
           </h1>
           <h3 className="text-maven-white text-justify">
-          We are a team of seasoned professional and curious youngsters striving to connect voluminous data stored in various systems used by the customers. Having worked with global customers who manufacture wide variety of products, we excel in PLM consulting, implementation, migration, integrating enterprise applications, and providing application support. In the last 4 years, we have partnered with more than 20 customers in their digitalization journey.
+            We are a team of seasoned professional and curious youngsters
+            striving to connect voluminous data stored in various systems used
+            by the customers. Having worked with global customers who
+            manufacture wide variety of products, we excel in PLM consulting,
+            implementation, migration, integrating enterprise applications, and
+            providing application support. In the last 4 years, we have
+            partnered with more than 20 customers in their digitalization
+            journey.
           </h3>
         </div>
         <div className="flex flex-col items-center p-4 justify-center">
@@ -20,18 +27,23 @@ export default function AboutUsHero() {
             alt="Person"
           /> */}
           <div className="flex flex-col justify-center border border-maven-blue border-b-4 rounded-lg p-8">
-          <Image
-          width={300}
-          height={300}
-            className="object-cover w-28 h-28 mb-2 rounded-full shadow"
-            src="/RajaramSellamuthu.jpg"
-            alt="Person"
-          />
-            <p className="text-lg font-bold text-maven-blue mb-4">From CEO's Desk</p>
-            <p className="mb-4 tracking-wide italic text-maven-white">
-           "When you view customers goals as your own, your efforts become effortless. The idea of Mavenberg is to nurture such a culture"
+            <Image
+              width={300}
+              height={300}
+              className="object-cover w-28 h-28 mb-2 rounded-full shadow"
+              src={CEO}
+              alt="Person"
+            />
+            <p className="text-lg font-bold text-maven-blue mb-4">
+              From CEO's Desk
             </p>
-            <p className="text-maven-orange flex justify-end">-Rajaram Sellamuthu</p>
+            <p className="mb-4 tracking-wide italic text-maven-white">
+              "When you view customers goals as your own, your efforts become
+              effortless. The idea of Mavenberg is to nurture such a culture"
+            </p>
+            <p className="text-maven-orange flex justify-end">
+              -Rajaram Sellamuthu
+            </p>
           </div>
         </div>
       </div>
