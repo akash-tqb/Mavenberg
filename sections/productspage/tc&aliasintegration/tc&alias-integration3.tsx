@@ -79,7 +79,7 @@ export default function TCAliasIntegration3() {
               of Alias data.
             </p>
           </div>
-          <div className="lg:col-start-1 lg:row-span-3 p-4 lg:p-8 space-y-2 rounded-lg border border-maven-white">
+          <div className="lg:col-start-1 lg:row-span-3 p-4 flex flex-col justify-end lg:p-8 space-y-2 rounded-lg border border-maven-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -104,7 +104,7 @@ export default function TCAliasIntegration3() {
             </p>
           </div>
 
-          <div className="lg:row-span-3 lg:col-start-3 space-y-2 p-4 lg:p-8 rounded-lg border border-maven-white">
+          <div className="lg:row-span-3 lg:col-start-3 flex flex-col justify-end space-y-2 p-4 lg:p-8 rounded-lg border border-maven-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
