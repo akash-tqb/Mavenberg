@@ -1,8 +1,9 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/Mavenberg',
+  basePath: '/',
   reactStrictMode:true,
+  assetPrefix:'/',
 }
 
 module.exports = nextConfig
