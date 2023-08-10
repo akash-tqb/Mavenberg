@@ -1,7 +1,4 @@
 import Image from "next/image";
-import CadDataConversation from "../../public/services/caddataconversion.svg";
-import CadAutomation from "../../public/services/cadautomation.svg";
-import ManifacturingSim from "../../public/services/manufacturingsim.svg";
 
 export default function EngineeringServices1() {
   return (
@@ -25,14 +22,14 @@ export default function EngineeringServices1() {
             </p>
           </div>
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src={CadDataConversation} alt="" width={300} height={450} />
+            <Image src="/services/caddataconversion.svg" alt="" width={300} height={450} />
           </div>
         </div>
       </div>
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="flex flex-col justify-between lg:flex-row">
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src={CadAutomation} alt="" width={400} height={550} />
+            <Image src="/services/cadautomation.svg" alt="" width={400} height={550} />
           </div>
           <div className="lg:w-[60%] space-y-6 text-maven-white text-justify">
             <h1 className="text-maven-orange text-xl font-bold">
@@ -69,7 +66,7 @@ export default function EngineeringServices1() {
               </p>
             </div>
             <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-              <Image src={ManifacturingSim} alt="" width={300} height={450} />
+              <Image src="/services/manufacturingsim.svg" alt="" width={300} height={450} />
             </div>
           </div>
         </div>

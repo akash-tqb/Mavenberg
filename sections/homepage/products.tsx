@@ -27,7 +27,7 @@ export default function Products() {
             <div className="group relative mx-auto h-full w-full overflow-hidden rounded-[16px] p-[1px] transition-all duration-300 ease-in-out bg-maven-orange/40 hover:bg-gradient-to-r hover:from-maven-orange via-maven-bg to-maven-orange">
               <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 lg:right-20 lg:left-20 lg:-top-80 lg:-bottom-80 bg-gradient-to-r from-transparent via-maven-white/90 to-transparent group-hover:visible"></div>
               <div className="relative rounded-[15px] bg-maven-bg h-full shadow-inner p-6">
-                <div className="absolute h-4/6 inset-0 bg-no-repeat opacity-40  bg-mavendx bg-cover bg-center [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
+                <div className="absolute h-4/6 inset-0 bg-no-repeat opacity-40 bg-mavendx bg-cover bg-center [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
 
                 <div className="space-y-4   transition-all duration-300 xl:translate-y-36 group-hover:xl:translate-y-12">
                   <svg

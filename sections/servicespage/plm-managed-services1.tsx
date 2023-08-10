@@ -1,6 +1,4 @@
 import Image from "next/image";
-import CloudInfra from "../../public/services/cloudinfra.svg"
-import AppAdoptation from "../../public/services/appadoption.svg"
 
 export default function PlmManagedServices1() {
   return (
@@ -34,14 +32,14 @@ export default function PlmManagedServices1() {
             </p>
           </div>
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src={CloudInfra} alt="" width={300} height={450} />
+            <Image src="/services/cloudinfra.svg" alt="" width={300} height={450} />
           </div>
         </div>
       </div>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
         <div className="flex flex-col justify-between lg:flex-row">
           <div className="lg:w-[40%] hidden lg:flex items-center justify-center">
-            <Image src={AppAdoptation} alt="" width={300} height={450} />
+            <Image src="/services/appadoption.svg" alt="" width={300} height={450} />
           </div>
           <div className="lg:w-[60%] space-y-6 text-maven-white text-justify">
             <h1 className="text-maven-orange text-xl font-bold">

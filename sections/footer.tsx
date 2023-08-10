@@ -1,5 +1,4 @@
 import Image from "next/image";
-import LogoOld from "../public/logoold.png"
 import Link from "next/link";
 
 export default function Footer() {
@@ -16,7 +15,7 @@ export default function Footer() {
             >
               <div>
                 <Image
-                  src={LogoOld}
+                  src="/logoold.png"
                   alt="Mavenberg"
                   width={200}
                   height={100}
