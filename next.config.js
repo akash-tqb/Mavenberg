@@ -1,9 +1,8 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  basePath:'/Mavenberg',
-  assetPrefix:'/Mavenberg/',
+  output: 'export',
+  basePath: '/Mavenberg',
 }
 
 module.exports = nextConfig
