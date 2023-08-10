@@ -6,19 +6,19 @@
   box-shadow: 0 0 6px 2px #03e5e5;
 }
 .bg-mavendx {
-  background-image: url('/Mavenberg/mavendx.svg');
+  background-image: url('https://akash-tqb.github.io/Mavenberg/mavendx.svg');
 }
 .bg-panel {
-  background-image: url('/Mavenberg/panelconfig.svg');
+  background-image: url('https://akash-tqb.github.io/Mavenberg/panelconfig.svg');
 }
 .bg-license {
-  background-image: url('/Mavenberg/licenseinsight.svg');
+  background-image: url('https://akash-tqb.github.io/Mavenberg/licenseinsight.svg');
 }
 .bg-tcalias {
-  background-image: url('/Mavenberg/tc&aliasintegration.svg');
+  background-image: url('https://akash-tqb.github.io/Mavenberg/tc&aliasintegration.svg');
 }
 .bg-visualiser {
-  background-image: url('/Mavenberg/3dvisualiser.svg');
+  background-image: url('https://akash-tqb.github.io/Mavenberg/3dvisualiser.svg');
 }
 @media screen and (min-width: 1024px) {
   .lg-nav-shadow{
