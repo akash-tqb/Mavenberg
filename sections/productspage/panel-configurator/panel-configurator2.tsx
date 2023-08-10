@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function PanelConfigurator2() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="lg:mb-20 mb-12">
+      <div className="lg:mb-20 mb-12 lg:max-w-2xl mx-auto text-center flex flex-col items-center justify-center">
         <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
           Maximize Your{" "}
           <span className=" text-maven-blue">Panel Configurability </span>
@@ -15,7 +15,7 @@ export default function PanelConfigurator2() {
           components from frames to sheets according to your bespoke needs.
         </h3>
       </div>
-      <div className="flex flex-col-reverse gap-8 lg:flex-row w-full p-8  lg:p-12 ">
+      <div className="flex flex-col-reverse gap-8 lg:flex-row w-full p-8  lg:p-12">
         <div className="flex flex-col space-y-12 lg:w-1/2">
           <div className="flex flex-col gap-8">
             <h1 className="text-maven-blue text-xl font-bold tracking-wide">

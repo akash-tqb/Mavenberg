@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-shadow{
+/* .nav-shadow{
   box-shadow: 0 0 6px 2px #03e5e5;
 }
 .bg-mavendx {
@@ -19,7 +19,7 @@
 }
 .bg-visualiser {
   background-image: url('https://akash-tqb.github.io/Mavenberg/3dvisualiser.svg');
-}
+} */
 @media screen and (min-width: 1024px) {
   .lg-nav-shadow{
     box-shadow: 0 0 6px 2px #03e5e5;
