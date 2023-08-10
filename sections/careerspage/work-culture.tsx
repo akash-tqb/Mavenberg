@@ -1,5 +1,4 @@
 import Image from "next/image";
-import CareerTeam from "../../public/careerteam.svg"
 
 export default function WorkCulture() {
   return (
@@ -18,7 +17,7 @@ export default function WorkCulture() {
       </div>
       <div className="flex flex-col gap-12 justify-between lg:flex-row mt-16">
         <div className="lg:w-1/2 items-center hidden lg:flex justify-center">
-          <Image src={CareerTeam} width={400} height={400} alt="" />
+          <Image src="/careerteam.svg" width={400} height={400} alt="" />
         </div>
         <div className="lg:w-1/2 flex flex-col items-center gap-8">
           <div>

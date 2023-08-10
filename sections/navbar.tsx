@@ -2,7 +2,6 @@ import { url } from "inspector";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import LogoHex from "../public/logoHex.png";
 import navImage from "../public/independenceday.svg";
 
 export default function Navbar() {
@@ -18,7 +17,7 @@ export default function Navbar() {
               <span className="text-[#22c55e]">Day</span>
             </p>
             <Image
-              src={navImage}
+              src="/independenceday.svg"
               width={200}
               height={100}
               className="absolute top-[-80%] opacity-50"
@@ -58,7 +57,12 @@ export default function Navbar() {
             className="inline-flex items-center justify-center"
           >
             <div>
-              <Image src={LogoHex} alt="Mavenberg" width={50} height={50} />
+              <Image
+                src="/logoHex.png"
+                alt="Mavenberg"
+                width={50}
+                height={50}
+              />
             </div>
           </Link>
           <ul className="items-center hidden space-x-8 lg:flex">
@@ -134,7 +138,7 @@ export default function Navbar() {
                       >
                         <div>
                           <Image
-                            src={LogoHex}
+                            src="/logoHex.png"
                             alt="Mavenberg"
                             width={50}
                             height={50}

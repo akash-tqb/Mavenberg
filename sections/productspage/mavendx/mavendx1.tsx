@@ -1,8 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import LicenseRealTime1 from "../../../public/licenserealtime1.png";
-import LicenseRealTime2 from "../../../public/licenserealtime2.png";
-import LicenseRealTime3 from "../../../public/licenserealtime3.png";
 
 export default function MavenDX1() {
   return (
@@ -29,23 +26,19 @@ export default function MavenDX1() {
                 width={300}
                 height={300}
                 className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src={LicenseRealTime3}
+                src="/licenserealtime3.png"
                 alt=""
               />
-              <Image
-                width={300}
-                height={300}
-                className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src={LicenseRealTime2}
+              <img
+                className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+                src="/licenserealtime2.png"
                 alt=""
               />
             </div>
             <div className="px-3">
-              <Image
-                width={300}
-                height={300}
-                className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src={LicenseRealTime1}
+              <img
+                className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+                src="/licenserealtime1.png"
                 alt=""
               />
             </div>
@@ -56,31 +49,13 @@ export default function MavenDX1() {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid grid-cols-3 gap-4">
           <div>
-            <Image
-              src="/left portion.svg"
-              className="w-full h-full"
-              width={350}
-              height={350}
-              alt=""
-            />
+            <Image src="/left portion.svg" className="w-full h-full" width={350} height={350} alt="" />
           </div>
           <div className="flex items-center justify-center">
-            <Image
-              src="/mavendx-flow.gif"
-              className="w-full"
-              width={350}
-              height={350}
-              alt=""
-            />
+          <Image src="/mavendx-flow.gif" className="w-full" width={350} height={350} alt="" />
           </div>
           <div>
-            <Image
-              src="/right portion.svg"
-              className="w-full h-full"
-              width={350}
-              height={350}
-              alt=""
-            />
+            <Image src="/right portion.svg" className="w-full h-full"  width={350} height={350} alt="" />
           </div>
         </div>
       </div>

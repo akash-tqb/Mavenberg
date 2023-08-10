@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mapworld from "../../public/mapworldfull.png";
 
 export default function Location() {
   return (
@@ -12,7 +11,7 @@ export default function Location() {
       <div className="w-full">
         <div className="relative">
           <Image
-            src={mapworld}
+            src="/mapworldfull.png"
             width={1280}
             height={640}
             alt="world map image"
