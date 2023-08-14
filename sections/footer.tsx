@@ -117,7 +117,7 @@ export default function Footer() {
                     href="/"
                     className="text-maven-white transition-colors duration-300 "
                   >
-                    MavenDx
+                    MavenDX
                   </Link>
                 </li>
                 <li>
@@ -182,7 +182,15 @@ export default function Footer() {
                     href="/services/engineering-services"
                     className="text-maven-white transition-colors duration-300 "
                   >
-                    Engineering Services
+                    Engineering Automation
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/services/engineering-services"
+                    className="text-maven-white transition-colors duration-300 "
+                  >
+                    Simulation Services
                   </Link>
                 </li>
               </ul>
