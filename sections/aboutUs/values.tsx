@@ -97,7 +97,7 @@ export default function Values() {
                   <h3 className="text-xl font-bold text-maven-white mb-4">
                   Our Values
                   </h3>
-                  <ul className="grid md:grid-cols-2  md:grid-rows-2">
+                  <ul className="grid md:grid-cols-2  md:grid-rows-2 text-justify">
                     <li className="flex flex-col gap-2 md:border-r md:border-maven-white p-4">
                     <h1 className="text-base font-semibold text-maven-blue">Trustworthy</h1>
                     <p className="text-sm">Open communication builds trust, which is our foundation for any relationship whether it’s with our employees or our clients. We are here to talk the walk.</p>
