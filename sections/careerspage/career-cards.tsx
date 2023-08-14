@@ -16,17 +16,20 @@ export default function CareerCards() {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
         <div className="flex flex-col text-center items-center mb-12 lg:mb-20">
           <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
-            Bibendum Est Ultricies <br />
-            <span className=" text-maven-blue ">integer Quis Auctor</span>
+            Job
+            <span className=" text-maven-blue ">Openings</span>
           </h1>
-          <h3 className="text-maven-white max-w-3xl">
+          {/* <h3 className="text-maven-white max-w-3xl">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam. Sed ut
             perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam.
-          </h3>
+          </h3> */}
         </div>
-        <div className="flex justify-evenly mb-16">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20 flex justify-center items-center">
+          <h1 className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">COMING SOON</h1>
+        </div>
+        {/* <div className="flex justify-evenly mb-16">
           {tabs.map((tab, index) => {
             return (
               <div
@@ -99,7 +102,7 @@ export default function CareerCards() {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </>
   );
