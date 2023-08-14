@@ -48,7 +48,7 @@ export default function MavenDx3() {
             <p className="text-base text-maven-white">
               MavenDX offers a comprehensive and customizable toolset that
               adapts to your company's specific requirements, enabling tailored
-              data extraction and integration processes.
+              data extraction and integration processes
             </p>
           </div>
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
@@ -57,25 +57,26 @@ export default function MavenDx3() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                strokeWidth="1.5"
+                stroke-width="1.5"
                 stroke="currentColor"
                 className="w-10 h-10"
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5"
+                  d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5"
                 />
               </svg>
             </div>
             <h3 className="mb-4 text-2xl font-bold text-maven-blue">
               {" "}
-              Configurability{" "}
+              Data Traceability{" "}
             </h3>
             <p className="text-base text-maven-white">
-              MavenDX provides the freedom to customize how data is retrieved
-              and integrated, allowing smooth alignment with existing workflows
-              for enhanced efficiency.
+              Accurately tracking the movement and transformations of data
+              throughout the extraction and integration processes is ensured and
+              every step of data handling is transparent and in accordance to
+              your needs
             </p>
           </div>
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
@@ -100,11 +101,13 @@ export default function MavenDx3() {
               Versatile Integration{" "}
             </h3>
             <p className="text-base text-maven-white">
-              MavenDX can seamlessly integrate with various applications, making
-              it a versatile extraction tool suitable for a wide range of
-              scenarios where data extraction is required.
+              Seamlessly integrate with various applications, making it a
+              versatile extraction tool suitable for a wide range of scenarios
+              for data extraction
             </p>
           </div>
+        </div>
+        <div className="grid grid-cols-1 gap-x-4 gap-y-6 lg:gap-x-8 lg:gap-y-8 md:grid-cols-2 mt-6">
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
             <div className="inline-block p-4 mb-6 -mt-16 bg-maven-orange rounded-full">
               <svg
@@ -127,13 +130,12 @@ export default function MavenDx3() {
               Automated Data Exchange{" "}
             </h3>
             <p className="text-base text-maven-white">
-              MavenDX revolutionizes data extraction by automating and
-              simplifying the exchange of data between Teamcenter and integrated
+              Automate data exchange between Teamcenter and other integrated
               platforms, eliminating manual transfers and enabling real-time,
-              accurate data exchange.
+              accurate data exchange
             </p>
           </div>
-          <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
+          {/* <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
             <div className="inline-block p-4 mb-6 -mt-16 bg-maven-blue rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,9 +159,9 @@ export default function MavenDx3() {
             <p className="text-base text-maven-white">
               By streamlining data extraction, MavenDX allows your team to
               concentrate efforts on utilizing data insights for promoting
-              growth and innovation, driving your business forward.
+              growth and innovation, driving your business forward
             </p>
-          </div>
+          </div> */}
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
             <div className="inline-block p-4 mb-6 -mt-16 bg-maven-orange rounded-full">
               <svg
@@ -184,7 +186,7 @@ export default function MavenDx3() {
             <p className="text-base text-maven-white">
               MavenDX places a strong emphasis on data security, ensuring that
               retrieved data is stored safely and reliably in a secure database,
-              facilitating easy and secure access for analysis.
+              facilitating easy and secure access for analysis
             </p>
           </div>
         </div>
