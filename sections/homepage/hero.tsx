@@ -50,7 +50,7 @@ export default function Hero() {
             </div>
             <div className="flex flex-col col-span-3 space-y-4">
               <h1 className="text-maven-orange md:text-xl text-lg tracking-wide font-bold">
-                PLM Process Consultation
+                PLM Process Consulting
               </h1>
               {/* <h4 className="text-maven-white text-sm">
                 We perform detailed analysis and view on product development

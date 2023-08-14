@@ -47,7 +47,7 @@ export default function Products() {
 
                   <div className="space-y-2">
                     <h1 className="text-xl font-extrabold tracking-wide text-maven-orange">
-                      Maven DX
+                      MavenDX
                     </h1>
                     <p className="text-maven-white lg:hidden">
                       Platform that forms a bridge between heterogeneous

@@ -1,64 +1,22 @@
-import Image from "next/image";
-import Link from "next/link";
-
-export default function MavenDX1() {
-  return (
-    <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="flex flex-col space-y-36 justify-between lg:flex-row lg:space-y-0 lg:mt-20">
-          <div className="lg:w-1/2 flex flex-col text-center items-center">
-            <h1 className="sm:text-5xl mb-16 text-3xl font-sans font-bold tracking-wide text-maven-white">
-              Get Visibility Into Your{" "}
-              <span className=" text-maven-blue">
-                Software Licensing Landscape
-              </span>
-            </h1>
-            <Link
+export default function MavenDx1(){
+    return(
+        <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="space-y-5 max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl lg:mb-12 text-maven-white font-extrabold mx-auto md:text-5xl">
+          Propelling Your Team Towards {" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
+            Data-Driven Growth and Innovation 
+            </span>
+          </h2>
+          <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
+            <a
               href="/#footer"
-              className="inline-flex lg:mb-20 items-center justify-center h-10 px-6 font-medium tracking-wide text-maven-bg transition duration-200 rounded-lg shadow-md bg-maven-orange focus:shadow-outline focus:outline-none"
+              className="block py-2 px-4 text-white font-medium bg-maven-orange duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
             >
               Contact Us
-            </Link>
-          </div>
-          <div className="flex items-center justify-center -mx-4 lg:pl-8 lg:w-1/2">
-            <div className="flex flex-col items-end px-3">
-              <Image
-                width={300}
-                height={300}
-                className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="/licenserealtime3.png"
-                alt=""
-              />
-              <img
-                className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                src="/licenserealtime2.png"
-                alt=""
-              />
-            </div>
-            <div className="px-3">
-              <img
-                className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                src="/licenserealtime1.png"
-                alt=""
-              />
-            </div>
-            {/* <Image src="/licenseinsight.svg" width={400} height={400} alt="license insights"/> */}
+            </a>
           </div>
         </div>
-      </div>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="grid grid-cols-3 gap-4">
-          <div>
-            <Image src="/left portion.svg" className="w-full h-full" width={350} height={350} alt="" />
-          </div>
-          <div className="flex items-center justify-center">
-          <Image src="/mavendx-flow.gif" className="w-full" width={350} height={350} alt="" />
-          </div>
-          <div>
-            <Image src="/right portion.svg" className="w-full h-full"  width={350} height={350} alt="" />
-          </div>
-        </div>
-      </div>
-    </>
-  );
+      </section>
+    )
 }

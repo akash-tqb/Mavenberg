@@ -5,7 +5,7 @@ export default function ProductsPageSection1() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="flex flex-col space-y-36 justify-between lg:flex-row lg:space-y-0 lg:mt-20">
-        <div className="lg:w-1/2 flex flex-col text-center items-center">
+        <div className="lg:w-1/2 flex flex-col text-center items-center justify-center">
           <h1 className="sm:text-5xl mb-16 text-3xl font-sans font-bold tracking-wide text-maven-white">
           Get Visibility Into Your{' '}
             <span className=" text-maven-blue">Software Licensing Landscape</span>
