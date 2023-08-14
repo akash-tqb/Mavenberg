@@ -7,7 +7,7 @@ export default function EngineeringServices1() {
         <h1 className="text-4xl text-maven-white font-extrabold mx-auto md:text-5xl mb-12">
           Engineering{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
-            Services
+           Automation
           </span>
         </h1>
         <h1 className="mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-maven-white sm:text-4xl md:mx-auto">

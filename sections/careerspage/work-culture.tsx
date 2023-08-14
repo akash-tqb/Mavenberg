@@ -22,7 +22,7 @@ export default function WorkCulture() {
         <div className="lg:w-1/2 flex flex-col items-center gap-8">
           <div>
             <div className=" flex items-center">
-              <div className="w-10 h-10 rounded-full p-2 bg-maven-blue flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full p-2 bg-maven-orange flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -49,7 +49,7 @@ export default function WorkCulture() {
           </div>
           <div>
             <div className=" flex items-center">
-              <div className="w-10 h-10 rounded-full p-2 bg-maven-orange flex items-center justify-center">
+              <div className="w-10 h-10 rounded-full p-2 bg-maven-blue flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

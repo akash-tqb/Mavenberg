@@ -18,12 +18,70 @@ export default function WhyUs() {
             <h1 className="text-lg font-medium text-maven-orange capitalize">
               Your needs take precedence over ours
             </h1>
-            <p className="text-maven-white">
-              We aim to elevate beyond the role of a mere vendor and transform
-              into valued partners. We strive for active engagement rather than
-              passive contribution. We emphasize collaborative participation as
-              partners.
-            </p>
+            <div className="flex flex-col gap-4 ml-12">
+            <div className="flex flex-row gap-2 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 text-maven-blue"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+
+              <p className="text-maven-white">
+                {" "}
+                We aim to elevate beyond the role of a mere vendor and transform
+                into valued partners
+              </p>
+            </div>
+            <div className="flex flex-row gap-2 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 text-maven-blue"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+
+              <p className="text-maven-white">
+                We strive for active engagement rather than passive contribution
+              </p>
+            </div>
+            <div className="flex flex-row gap-2 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 text-maven-blue"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+
+              <p className="text-maven-white">
+                We emphasize collaborative participation as partners
+              </p>
+            </div>
+            </div>
           </div>
           <div className=" flex flex-col md:flex-row gap-4">
             <div className="w-10 h-10 rounded-md p-2 bg-maven-blue flex items-center justify-center">

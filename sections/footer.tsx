@@ -69,10 +69,8 @@ export default function Footer() {
               </p>
             </div>
           </Link>
-          <Link
-            href="https://goo.gl/maps/wVDifbMbenai2cBP6"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
+           
             className="flex flex-col gap-4 lg:justify-center lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400"
           >
             <svg
@@ -103,7 +101,7 @@ export default function Footer() {
                 90429 Nürnberg, Germany.
               </p>
             </div>
-          </Link>
+          </div>
         </div>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-8 lg:grid-cols-4 mb-8">
           <div className="lg:flex justify-center">
