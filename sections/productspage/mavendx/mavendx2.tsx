@@ -10,7 +10,7 @@ export default function MavenDX2() {
             <Image src="/left portion.svg" className="w-full h-full" width={350} height={350} alt="" />
           </div>
           <div className="flex items-center justify-center">
-          <Image src="/mavendx-flow.gif" className="w-full" width={350} height={350} alt="" />
+          <Image src="/MDX.gif" className="w-full" width={350} height={350} alt="" />
           </div>
           <div>
             <Image src="/right portion.svg" className="w-full h-full"  width={350} height={350} alt="" />
