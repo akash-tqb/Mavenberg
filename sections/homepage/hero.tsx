@@ -122,7 +122,7 @@ export default function Hero() {
             </div>
             <div className="flex flex-col col-span-3 space-y-4">
               <h1 className="text-maven-blue md:text-xl text-lg tracking-wide font-bold">
-                Engineering Automation Services
+                Engineering Automation
               </h1>
               {/* <h4 className="text-maven-white text-sm">
                 Our expertise in engineering solutions enable you to leveraging
