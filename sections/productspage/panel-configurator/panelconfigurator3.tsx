@@ -29,7 +29,7 @@ export default function PanelConfigurator3() {
 
             <h3 className="text-maven-blue text-xl font-bold ">Accuracy</h3>
             <p className="text-maven-white/80 text-justify">
-              Minimizes the risk of human errors in panel design and layout,
+              Minimizes the risk of human errors in product design and layout,
               ensuring precise and error-free configurations.
             </p>
           </div>

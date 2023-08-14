@@ -7,7 +7,7 @@ export default function ProductsPage() {
     <>
       <ProductsPageSection1 />
       <ProductsPageSection2 />
-      <ProductsPageSection3 />
+      {/* <ProductsPageSection3 /> */}
     </>
   );
 }

@@ -42,7 +42,7 @@ export default function Dvisualiser2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Produces highly realistic and visually appealing 3D
                   representations of objects
                 </p>
@@ -62,7 +62,7 @@ export default function Dvisualiser2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Track objects and orders in real-time with our dynamic object
                   support
                 </p>
@@ -82,7 +82,7 @@ export default function Dvisualiser2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Choose objects from different extensive asset library and
                   place them freely
                 </p>
@@ -102,7 +102,7 @@ export default function Dvisualiser2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Annote, add labels and markers to highlight specific features
                   or details within the 3D model
                 </p>
@@ -122,7 +122,7 @@ export default function Dvisualiser2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Annote, add labels and markers to highlight specific features
                   or details within the 3D model
                 </p>
@@ -142,7 +142,7 @@ export default function Dvisualiser2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Manipulate, transform and deform 3D models to experiment with
                   different design variations{" "}
                 </p>
@@ -162,7 +162,7 @@ export default function Dvisualiser2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Interactively explore 3D models from different angles, zoom in
                   and out, and interact with elements.
                 </p>{" "}
@@ -191,14 +191,14 @@ export default function Dvisualiser2() {
               </div>
             </div>
 
-            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-60%] left-[25%]"></div>
+            {/* <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-60%] left-[25%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-60%] right-[30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-35%] left-[-35%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-35%] right-[-30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-35%] left-[-35%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-35%] right-[-30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] left-[-60%]"></div>
-            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] right-[-60%] "></div>
+            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] right-[-60%] "></div> */}
           </div>
         </div>
       </div>

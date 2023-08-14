@@ -35,7 +35,7 @@ export default function TCAliasIntegration2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">Automatically save the entire AutoDesk Alias Wireframe into Teamcenter.</p>
+                <p className="text-maven-white w-[90%]">Automatically save the entire AutoDesk Alias Wireframe into Teamcenter.</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -52,7 +52,7 @@ export default function TCAliasIntegration2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">Open concept design from Teamcenter for viewing, modifying and cloning in AutoDesk Alias.</p>
+                <p className="text-maven-white w-[90%]">Open concept design from Teamcenter for viewing, modifying and cloning in AutoDesk Alias.</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -69,7 +69,7 @@ export default function TCAliasIntegration2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">Simplify search, create and edit AutoDesk Alias objects, including drawings, parts and assemblies.</p>
+                <p className="text-maven-white w-[90%]">Simplify search, create and edit AutoDesk Alias objects, including drawings, parts and assemblies.</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -86,7 +86,7 @@ export default function TCAliasIntegration2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                 Readily create and vault Direct Model files for easy digital mockup.
                 </p>
               </li>
@@ -114,14 +114,14 @@ export default function TCAliasIntegration2() {
               </div>
             </div>
 
-            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-60%] left-[25%]"></div>
+            {/* <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-60%] left-[25%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-60%] right-[30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-35%] left-[-35%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-35%] right-[-30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-35%] left-[-35%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-35%] right-[-30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] left-[-60%]"></div>
-            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] right-[-60%] "></div>
+            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] right-[-60%] "></div> */}
           </div>
         </div>
       </div>

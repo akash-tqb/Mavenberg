@@ -8,7 +8,7 @@ export default function PanelConfigurator1() {
         <h2 className="text-4xl text-maven-white font-extrabold mx-auto md:text-5xl">
           Meticulous Visualization of Your{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
-            Custom Electrical Panel in 3D
+            Custom Verticalized Product in 3D
           </span>
         </h2>
         {/* <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">

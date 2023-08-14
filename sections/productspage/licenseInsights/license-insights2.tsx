@@ -16,7 +16,7 @@ export default function ProductsPageSection2() {
           expensive licenses to their maximum limit.
         </h3>
       </div>
-      <div className="flex flex-col-reverse gap-8 lg:flex-row w-full p-8  lg:p-12 ">
+      <div className="flex flex-col-reverse gap-8 lg:flex-row-reverse w-full p-8  lg:p-12 ">
         <div className="flex flex-col space-y-12 lg:w-1/2">
           <div className="flex flex-col gap-8">
             <h1 className="text-maven-blue text-lg font-bold tracking-wide">
@@ -43,7 +43,7 @@ export default function ProductsPageSection2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">Four Blocker graph</p>
+                <p className="text-maven-white w-[90%]">Four Blocker graph</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -60,7 +60,7 @@ export default function ProductsPageSection2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">Trend graph</p>
+                <p className="text-maven-white w-[90%]">Trend graph</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -77,7 +77,7 @@ export default function ProductsPageSection2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">License denied count graph</p>
+                <p className="text-maven-white w-[90%]">License denied count graph</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -94,14 +94,14 @@ export default function ProductsPageSection2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white">
+                <p className="text-maven-white w-[90%]">
                   Time/Application count based graph
                 </p>
               </li>
             </ul>
           </div>
         </div>
-        <div className="lg:w-1/2  flex-col items-center hidden sm:mt-20 sm:mb-24 lg:my-0 sm:flex">
+        <div className="lg:w-1/2  flex-col items-center justify-center hidden sm:mt-20 sm:mb-24 lg:my-0 sm:flex">
           <div className="relative ">
             <div className="flex items-center justify-center rounded-full h-48 w-48 bg-gradient-radial from-maven-blue to-maven-bg">
               <div className="inline-flex items-center justify-center h-36 w-36 rounded-full bg-maven-bg border-2 border-maven-blue">
@@ -122,14 +122,14 @@ export default function ProductsPageSection2() {
               </div>
             </div>
 
-            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-60%] left-[25%]"></div>
+            {/* <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-60%] left-[25%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-60%] right-[30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-35%] left-[-35%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[-35%] right-[-30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-35%] left-[-35%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute bottom-[-35%] right-[-30%]"></div>
             <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] left-[-60%]"></div>
-            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] right-[-60%] "></div>
+            <div className="h-20 w-20 rounded-full border border-maven-blue absolute top-[30%] right-[-60%] "></div> */}
           </div>
         </div>
       </div>
