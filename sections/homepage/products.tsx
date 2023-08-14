@@ -109,7 +109,7 @@ export default function Products() {
 
                   <div className="space-y-2">
                     <h1 className="text-xl font-extrabold tracking-wide text-maven-blue">
-                      Verticalized Pro configurator
+                      Verticalized configurator
                     </h1>
                     <p className="text-maven-white">
                       Amalgamation of lean PLM & ERP application to empower
