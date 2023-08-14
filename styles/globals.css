@@ -2,24 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .nav-shadow{
+.nav-shadow{
   box-shadow: 0 0 6px 2px #03e5e5;
 }
-.bg-mavendx {
-  background-image: url('https://akash-tqb.github.io/Mavenberg/mavendx.svg');
-}
-.bg-panel {
-  background-image: url('https://akash-tqb.github.io/Mavenberg/panelconfig.svg');
-}
-.bg-license {
-  background-image: url('https://akash-tqb.github.io/Mavenberg/licenseinsight.svg');
-}
-.bg-tcalias {
-  background-image: url('https://akash-tqb.github.io/Mavenberg/tc&aliasintegration.svg');
-}
-.bg-visualiser {
-  background-image: url('https://akash-tqb.github.io/Mavenberg/3dvisualiser.svg');
-} */
+
 @media screen and (min-width: 1024px) {
   .lg-nav-shadow{
     box-shadow: 0 0 6px 2px #03e5e5;

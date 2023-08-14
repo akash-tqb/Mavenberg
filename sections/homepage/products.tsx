@@ -12,12 +12,9 @@ export default function Products() {
           <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
             Our <span className=" text-maven-blue">Products</span>
           </h1>
-          <h3 className="text-maven-bg bg-maven-orange">
-            Discover seamless Product Lifecycle Management with our cutting-edge
-            products. Harness the power of your PLM system and advanced 3D
-            visualization technology to streamline your processes, enhance
-            collaboration, and achieve unmatched efficiency across our five
-            dynamic product offerings.
+          <h3 className="text-maven-white">
+            Discover and harness the potential of your data scattered across
+            disparate systems using our product offerings.
           </h3>
         </div>
       </div>
@@ -49,42 +46,37 @@ export default function Products() {
                     <h1 className="text-xl font-extrabold tracking-wide text-maven-orange">
                       MavenDX
                     </h1>
-                    <p className="text-maven-white lg:hidden">
-                      Platform that forms a bridge between heterogeneous
-                      applications
-                    </p>
-                    <p className="text-maven-white hidden lg:block">
-                      Platform that bridges gap between heterogeneous
-                      applications by seamlessly integrating, migrating and
+                    <p className="text-maven-white">
+                      Platform that bridges the gap across heterogeneous
+                      functions by seamlessly integrating, migrating and
                       synchronizing data between the applications
                     </p>{" "}
                   </div>
                   <div className="flex flex-row gap-2">
-                  <div className="lg:block hidden p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-1/4">
+                    <div className="lg:block hidden p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-4/12">
                       <h1 className="font-bold mb-1 text-sm text-maven-orange">
-                      Hassle free integration
+                        Configurability
                       </h1>
-                      <p className="text-xs">Application agnostic data integration.</p>
-                    </div>
-                    <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-1/4">
-                      <h1 className="font-bold mb-1 text-sm text-maven-orange">
-                        Seamless Synchronization
-                      </h1>
-                      <p className="text-xs ">Hassle free data extraction</p>
-                    </div>
-                    <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-1/4">
-                      <h1 className="font-bold mb-1 text-sm text-maven-orange">
-                        Dashboard
-                      </h1>
-                      <p className="text-xs ">
-                        One stop shop for visualising and monitoring data exchange
+                      <p className="text-xs">
+                        Enhances adaptability by decreasing need for expertise.
                       </p>
                     </div>
-                    <div className="lg:block hidden p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-1/4">
+                    <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-4/12">
                       <h1 className="font-bold mb-1 text-sm text-maven-orange">
-                        Automate
+                        Application Agnostic
                       </h1>
-                      <p className="text-xs ">Schedule data exchange</p>
+                      <p className="text-xs ">
+                        Ensures compatibility and functionality regardless of
+                        the underlying tech{" "}
+                      </p>
+                    </div>
+                    <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-4/12">
+                      <h1 className="font-bold mb-1 text-sm text-maven-orange">
+                        Flexible
+                      </h1>
+                      <p className="text-xs ">
+                        Cater to your unique requirements
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -99,7 +91,7 @@ export default function Products() {
               <div className="relative rounded-[15px] bg-maven-bg h-full shadow-inner p-6">
                 <div className="absolute h-4/6 inset-0 bg-no-repeat opacity-40 bg-[url(/panelconfig.svg)] bg-cover [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
 
-                <div className="space-y-4   transition-all duration-300 xl:translate-y-36 group-hover:xl:translate-y-12">
+                <div className="space-y-4 transition-all duration-300 xl:translate-y-36 group-hover:xl:translate-y-12">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -117,26 +109,29 @@ export default function Products() {
 
                   <div className="space-y-2">
                     <h1 className="text-xl font-extrabold tracking-wide text-maven-blue">
-                      Panel Configurator
+                      Verticalized Pro configurator
                     </h1>
                     <p className="text-maven-white">
-                      Amalgamation of lean PLM & ERP application to empower electrical panel manufacturers
+                      Amalgamation of lean PLM & ERP application to empower
+                      verticalized product OEM{" "}
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
-                  <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
+                    <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
                         Plan
                       </h1>
                       <p className="text-xs ">
-                        Formulate and Visualise panel configuration
+                        Formulate and visualize verticalized product
                       </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
                         Analyze
                       </h1>
-                      <p className="text-xs ">Optimize panel configuration & cost</p>
+                      <p className="text-xs ">
+                        Optimize product configuration and cost
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -171,8 +166,8 @@ export default function Products() {
                       License Insights
                     </h1>
                     <p className="text-maven-white">
-                      Visualize, optimize and maximize the usage of your
-                      software licenses
+                      Visualize all software usages to optimize and maximize
+                      your ROI
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -180,13 +175,17 @@ export default function Products() {
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
                         Tracking
                       </h1>
-                      <p className="text-xs ">Analyze usage for any desired period</p>
+                      <p className="text-xs ">
+                        Analyze usage for any desired period
+                      </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
                         Reports
                       </h1>
-                      <p className="text-xs ">Deep dive into usage trends and metrics</p>
+                      <p className="text-xs ">
+                        Deep dive into usage trends and metrics
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -222,7 +221,8 @@ export default function Products() {
                       TC & Alias Integration
                     </h1>
                     <p className="text-maven-white">
-                      Seamlessly Manage your conceptual designs across Autodesk Alias and Teamcenter
+                      Seamlessly manage your conceptual design in Auto Desk
+                      Alias across Teamcenter
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -274,8 +274,8 @@ export default function Products() {
                       3D Visualiser
                     </h1>
                     <p className="text-maven-white">
-                      Observe a digital twin enhanced with real-time information
-                      gathered from a physical asset
+                      Visualize a digital twin augmented with real-time
+                      information
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -283,7 +283,9 @@ export default function Products() {
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
                         Monitoring
                       </h1>
-                      <p className="text-xs ">Visualize 3D objects real time</p>
+                      <p className="text-xs ">
+                        Visualize an object in real-time across a live feed
+                      </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">

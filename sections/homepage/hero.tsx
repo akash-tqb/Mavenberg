@@ -4,20 +4,14 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="flex flex-col gap-12 lg:gap-0 justify-between lg:flex-row">
-        <div className="lg:w-1/2 flex flex-col items-center">
+      <div className="flex flex-col gap-12 justify-between lg:flex-row">
+        <div className="lg:w-1/2 flex flex-col gap-12 items-center">
           <h1 className="mb-10 font-sans text-3xl text-center font-bold text-maven-white sm:text-5xl sm:leading-none">
-            Digitize Your Business with
+            Digitize Your Business With
             <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
               Our Disruptive Solutions
             </span>
           </h1>
-          <Link
-            href="/#products"
-            className="inline-flex lg:mb-10 items-center justify-center h-10 px-6 font-medium tracking-wide text-maven-bg transition duration-200 rounded-lg shadow-md bg-maven-orange focus:shadow-outline focus:outline-none"
-          >
-            Know More
-          </Link>
           <div className="h-96 w-96 hidden lg:block">
             <Image
               src="/heroImage.svg"
@@ -27,117 +21,46 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="lg:w-1/2 text-justify flex flex-col items-center justify-center">
+        <div className="lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+          <div className=" grid grid-cols-3 text-base leading-5 font-bold text-center  gap-4">
+            <h1 className="p-4 bg-maven-blue/10 rounded-xl text-maven-blue flex items-center justify-center">
+              PLM Process Consulting
+            </h1>
+            <h1 className="p-4 bg-maven-blue/10 rounded-xl text-maven-orange flex items-center justify-center">
+              PLM Implementation
+            </h1>
+            <h1 className="p-4 bg-maven-blue/10 rounded-xl text-maven-blue flex items-center justify-center">
+              Engineering Automation Services
+            </h1>
+          </div>
           <div>
-          <div className="grid grid-cols-4">
-            <div className="flex flex-col col-span-1 justify-center items-center">
-              <div className="rounded-full border-2 flex items-center justify-center w-12 h-12 border-maven-white">
-                <div className="rounded-full w-7 h-7 bg-maven-blue"></div>
-              </div>
-              <div className="h-10 w-[2px] bg-maven-white"></div>
-            </div>
-            <div className="col-span-3">
-              <h1 className="text-maven-white text-xl font-bold pt-2">
-                Weaving Your{" "}
-                <span className="text-maven-blue">Digital DNA</span>
-              </h1>
-            </div>
+            <h1 className="text-maven-white text-3xl font-bold pt-2">
+              Weaving Your{" "}
+              <span className="text-maven-blue text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
+                Digital DNA
+              </span>
+            </h1>{" "}
           </div>
-          <div className="grid grid-cols-4">
-            <div className="flex flex-col col-span-1 justify-center items-center">
-              <div className="rounded-full border-4 flex items-center justify-center w-10 h-10 border-maven-orange"></div>
-              <div className="h-8 w-[2px] bg-maven-white"></div>
-            </div>
-            <div className="flex flex-col col-span-3 space-y-4">
-              <h1 className="text-maven-orange md:text-xl text-lg tracking-wide font-bold">
-                PLM Process Consulting
-              </h1>
-              {/* <h4 className="text-maven-white text-sm">
-                We perform detailed analysis and view on product development
-                process and scope the gaps where our expertise can aid in your
-                needs.{" "}
-              </h4> */}
-            </div>
+          <div className=" grid grid-cols-4 text-base leading-5 font-bold text-center  gap-4">
+            <h1 className="p-4 bg-maven-blue/10 rounded-xl text-maven-orange flex items-center justify-center">
+              Data Migration
+            </h1>
+            <h1 className="p-4 bg-maven-blue/10 rounded-xl text-maven-blue flex items-center justify-center">
+              Enterprise Integrations
+            </h1>
+            <h1 className="p-4 bg-maven-blue/10 rounded-xl text-maven-orange flex items-center justify-center">
+              PLM Managed Services
+            </h1>
+            <h1 className="p-4 bg-maven-blue/10 rounded-xl text-maven-blue flex items-center justify-center">
+              Simulation Services
+            </h1>
           </div>
-          <div className="grid grid-cols-4">
-            <div className="flex flex-col col-span-1 justify-center items-center">
-              <div className="rounded-full border-4 flex items-center justify-center w-10 h-10 border-maven-blue"></div>
-              <div className="h-8 w-[2px] bg-maven-white"></div>
-            </div>
-            <div className="flex flex-col col-span-3 space-y-4">
-              <h1 className="text-maven-blue md:text-xl text-lg tracking-wide font-bold">
-                PLM Implementation
-              </h1>
-              {/* <h4 className="text-maven-white text-sm">
-                We provide best in class implementation like single click
-                automations, custom work flow handlers and we ensure that our
-                customizations are as independent as possible.{" "}
-              </h4> */}
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="flex flex-col col-span-1 justify-center items-center">
-              <div className="rounded-full border-4 flex items-center justify-center w-10 h-10 border-maven-orange"></div>
-              <div className="h-8 w-[2px] bg-maven-white"></div>
-            </div>
-            <div className="flex flex-col col-span-3 space-y-4">
-              <h1 className="text-maven-orange md:text-xl text-lg tracking-wide font-bold">
-                Data Migration
-              </h1>
-              {/* <h4 className="text-maven-white text-sm">
-                We assure hassle free migration of existing heterogeneous CAD
-                and PLM systems into a coherent system environments.
-              </h4> */}
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="flex flex-col col-span-1 justify-center items-center">
-              <div className="rounded-full border-4 flex items-center justify-center w-10 h-10 border-maven-blue"></div>
-              <div className="h-8 w-[2px] bg-maven-white"></div>
-            </div>
-            <div className="flex flex-col col-span-3 space-y-4">
-              <h1 className="text-maven-blue md:text-xl text-lg tracking-wide font-bold">
-                Enterprise Integration
-              </h1>
-              {/* <h4 className="text-maven-white text-sm">
-                We seamlessly integrate and enable application-independent data
-                with other enterprise application to ensure timely information
-                exchange with users.{" "}
-              </h4> */}
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="flex flex-col col-span-1 justify-center items-center">
-              <div className="rounded-full border-4 flex items-center justify-center w-10 h-10 border-maven-orange"></div>
-              <div className="h-8 w-[2px] bg-maven-white"></div>
-            </div>
-            <div className="flex flex-col col-span-3 space-y-4">
-              <h1 className="text-maven-orange md:text-xl text-lg tracking-wide font-bold">
-                PLM Managed Services
-              </h1>
-              {/* <h4 className="text-maven-white text-sm">
-                We ensure digital connectivity across different systems from
-                architectural design to installation and deployment.
-              </h4> */}
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="flex flex-col col-span-1 items-center">
-              <div className="rounded-full border-4 flex justify-center w-10 h-10 border-maven-blue"></div>
-            </div>
-            <div className="flex flex-col col-span-3 space-y-4">
-              <h1 className="text-maven-blue md:text-xl text-lg tracking-wide font-bold">
-                Engineering Services
-              </h1>
-              {/* <h4 className="text-maven-white text-sm">
-                Our expertise in engineering solutions enable you to leveraging
-                us in various domains like CAD data automations and
-                customization , manufacturing engineering simulations and
-                engineering analysis.
-              </h4> */}
-            </div>
-          </div>
-          </div>
+          <Link
+            href="/#products"
+            className="inline-flex lg:mb-10 items-center justify-center h-10 px-6 font-medium tracking-wide text-maven-bg transition duration-200 rounded-lg shadow-md bg-maven-orange focus:shadow-outline focus:outline-none"
+          >
+            Know More
+          </Link>
         </div>
       </div>
     </div>

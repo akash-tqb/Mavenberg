@@ -14,126 +14,116 @@ export default function WhyUs() {
       </div>
       <div className="flex justify-between flex-row space-y-0">
         <div className="flex flex-col space-y-8 p-4 lg:p-8 lg:w-3/4">
-          {/* <h1 className="text-lg font-medium text-maven-orange capitalize">
-            
-          </h1> */}
-          <div className=" flex flex-col md:flex-row gap-4">
-            <div className="w-10 h-10 rounded-md p-2 bg-maven-blue flex items-center justify-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="text-maven-bg h-8 w-8"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
-                />
-              </svg>
-            </div>
-            <div className="flex flex-col md:gap-4">
-              <h1 className="text-lg text-maven-blue font-medium">
-                Experience
-              </h1>
-              <p className="text-maven-white">
-              With more than 15+ years of experience in the industry, we have
-            amassed subject matter expertise{" "}
-              </p>
-            </div>
+          <div className="flex flex-col gap-4">
+          <h1 className="text-lg font-medium text-maven-orange capitalize">
+            Your needs take precedence over ours
+          </h1>
+          <p className="text-maven-white">
+            We aim to elevate beyond the role of a mere vendor and transform
+            into valued partners. We strive for active engagement rather than
+            passive contribution. We emphasize collaborative participation as
+            partners.
+          </p>
           </div>
-          <div className=" flex flex-col md:flex-row gap-4">
-            <div className="w-10 h-10 rounded-md p-2 bg-maven-blue flex items-center justify-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="text-maven-bg h-8 w-8"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
-                />
-              </svg>
+          <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
+            <div className="bg-white border-l-4 shadow-sm border-maven-blue">
+              <div className="h-full p-5 border border-maven-blue border-l-0 rounded-r">
+                <div className=" flex flex-col gap-2">
+                  <h6 className="text-lg font-semibold leading-5 text-maven-blue">
+                    Experience
+                  </h6>
+
+                  <p className="text-sm text-maven-white">
+                    Mavenbergers are a youthful team fueled by strong enthusiasm
+                    and work ethics with a collective experience of a century!{" "}
+                  </p>
+                  <p className="text-sm text-maven-white">
+                    We surpass expectations with our exceptional efforts!{" "}
+                  </p>
+                  <p className="text-sm text-maven-white">
+                    Individually, we excel in a diverse range of skills, and as
+                    a collective, we thrive in mastering a wide array of
+                    disciplines.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className=" flex flex-col gap-4">
-              <h1 className="text-lg text-maven-blue font-medium">
-                Engagement Model
-              </h1>
-              <p className="text-maven-white">
-                Keeping flexibility in mind and understanding that each
-                requirement from you needs highest form of effective
-                communication.
-              </p>
-              <p className="text-maven-white">
-                We follow a hybrid engagement model that enables us to:{" "}
-              </p>
-              <div className="flex flex-row gap-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6 text-maven-blue"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+            <div className="bg-white border-l-4 shadow-sm border-maven-orange">
+              <div className="h-full p-5 border border-maven-orange border-l-0 rounded-r">
+                <div className=" flex flex-col gap-2">
+                  <h6 className="text-lg font-semibold leading-5 text-maven-orange">
+                    Engagement Model
+                  </h6>
+                  <p className="text-maven-white text-sm">
+                    Keeping flexibility in mind and understanding that each
+                    requirement from you needs highest form of effective
+                    communication.
+                  </p>
+                  <p className="text-maven-white text-sm">
+                    We follow a hybrid engagement model that enables us to:{" "}
+                  </p>
+                  <div className="flex flex-row gap-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6 text-maven-orange"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
 
-                <p className="text-maven-white">
-                  Provide best practice in resource management
-                </p>
-              </div>
-              <div className="flex flex-row gap-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6 text-maven-blue"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+                    <p className="text-maven-white text-sm">
+                      Provide best practice in resource management
+                    </p>
+                  </div>
+                  <div className="flex flex-row gap-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6 text-maven-orange"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
 
-                <p className="text-maven-white">Cost effective</p>
-              </div>
-              <div className="flex flex-row gap-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6 text-maven-blue"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+                    <p className="text-maven-white text-sm">Cost effective</p>
+                  </div>
+                  <div className="flex flex-row gap-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6 text-maven-orange"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
 
-                <p className="text-maven-white">
-                  Flexibility
-                </p>
+                    <p className="text-maven-white text-sm">Flexibility</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className=" flex flex-col md:flex-row gap-4">
+
+          <div className=" flex flex-col gap-4">
             <div className="w-10 h-10 rounded-md p-2 bg-maven-blue flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
