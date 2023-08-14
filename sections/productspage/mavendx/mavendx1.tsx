@@ -8,14 +8,6 @@ export default function MavenDx1(){
             Data-Driven Growth and Innovation 
             </span>
           </h2>
-          {/* <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-            <a
-              href="/#footer"
-              className="block py-2 px-4 text-white font-medium bg-maven-orange duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
-            >
-              Contact Us
-            </a>
-          </div> */}
         </div>
       </section>
     )

@@ -11,14 +11,6 @@ export default function PanelConfigurator1() {
             Custom Verticalized Product in 3D
           </span>
         </h2>
-        {/* <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-          <a
-            href="/"
-            className="block py-2 px-4 text-white font-medium bg-maven-orange duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
-          >
-            Contact Us
-          </a>
-        </div> */}
       </div>
     </section>
   );

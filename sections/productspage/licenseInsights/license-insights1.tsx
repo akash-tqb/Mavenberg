@@ -10,9 +10,6 @@ export default function ProductsPageSection1() {
           Get Visibility Into Your{' '}
             <span className=" text-maven-blue">Software Licensing Landscape</span>
           </h1>
-          {/* <Link href="/#footer" className="inline-flex lg:mb-20 items-center justify-center h-10 px-6 font-medium tracking-wide text-maven-bg transition duration-200 rounded-lg shadow-md bg-maven-orange focus:shadow-outline focus:outline-none">
-            Contact Us
-          </Link> */}
         </div>
         <div className="flex items-center justify-center -mx-4 lg:pl-8 lg:w-1/2">
         <div className="flex flex-col items-end px-3">

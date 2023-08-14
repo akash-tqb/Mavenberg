@@ -172,14 +172,13 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                    Our offerings include industry-specific consulting, design,
-                    analysis, testing, prototyping, and implementation.
+                  Implementing automation in your engineering to optimize workflows, reduce manual tasks, and boost productivity.
                   </p>
                 </div>
               </div>
             </div>
           </Link>
-          <Link href="/services/plm&allied-services">
+          <Link href="/services/simulation-services">
             <div className="relative p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
@@ -223,8 +222,7 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                    We elevate PLM's effectiveness through tailored tools and
-                    processes, catering to all product lifecycle aspects.
+                  Provide advanced simulation solutions that helps to analyze complex scenarios to facilitate informed decision-making.
                   </p>
                 </div>
               </div>

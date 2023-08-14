@@ -66,7 +66,8 @@ export default function Products() {
                         Versatile
                       </h1>
                       <p className="text-xs ">
-                      Address plethora of data extraction and integration scenarios{" "}
+                        Address plethora of data extraction and integration
+                        scenarios{" "}
                       </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-4/12">
@@ -108,10 +109,11 @@ export default function Products() {
 
                   <div className="space-y-2">
                     <h1 className="text-xl font-extrabold tracking-wide text-maven-blue">
-                      Verticalized configurator
+                      Verticalized Configurator
                     </h1>
                     <p className="text-maven-white">
-                      Amalgamation of lean PLM & ERP application to empower Small and Medium Business Units{" "}
+                      Amalgamation of lean PLM & ERP application to empower
+                      Small and Medium Business Units{" "}
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -198,7 +200,7 @@ export default function Products() {
               <div className="relative rounded-[15px] bg-maven-bg h-full shadow-inner p-6">
                 <div className="absolute h-4/6 inset-0 opacity-40 bg-no-repeat  bg-[url(/tc&aliasintegration.svg)] bg-cover [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
 
-                <div className="space-y-4   transition-all duration-300 xl:translate-y-36 group-hover:xl:translate-y-12">
+                <div className="space-y-4   transition-all duration-300 xl:translate-y-36 group-hover:xl:translate-y-8">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -219,8 +221,8 @@ export default function Products() {
                       TC & Alias Integration
                     </h1>
                     <p className="text-maven-white">
-                      Seamlessly manage your conceptual design in Autodesk
-                      Alias across Teamcenter
+                      Seamlessly manage concept created using Autodesk Alias,
+                      within Teamcenter
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -229,14 +231,17 @@ export default function Products() {
                         Traceability
                       </h1>
                       <p className="text-xs ">
-                        Easily create & modify parts and assemblies
+                        Provides tracebility from requirements to downstream
+                        artifcats
                       </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
-                        Supports MBSE
+                        Facilitate MBSE
                       </h1>
-                      <p className="text-xs ">Find correct data revision</p>
+                      <p className="text-xs ">
+                        Augments MBSE by linking logical and physical structures
+                      </p>
                     </div>
                   </div>
                 </div>
