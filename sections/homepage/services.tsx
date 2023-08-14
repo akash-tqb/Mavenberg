@@ -172,7 +172,7 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                  Implementing automation in your engineering to optimize workflows, reduce manual tasks, and boost productivity.
+                  We implement automation in your engineering to optimize workflows, reduce manual tasks, and boost productivity.
                   </p>
                 </div>
               </div>
@@ -222,7 +222,7 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                  Provide advanced simulation solutions that helps to analyze complex scenarios to facilitate informed decision-making.
+                  We provide advanced simulation solutions that helps to analyze complex scenarios to facilitate informed decision-making.
                   </p>
                 </div>
               </div>
