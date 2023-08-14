@@ -58,16 +58,15 @@ export default function Products() {
                         Configurability
                       </h1>
                       <p className="text-xs">
-                        Enhances adaptability by decreasing need for expertise.
+                        Enhances adaptability by decreasing need for expertise
                       </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-4/12">
                       <h1 className="font-bold mb-1 text-sm text-maven-orange">
-                        Application Agnostic
+                        Versatile
                       </h1>
                       <p className="text-xs ">
-                        Ensures compatibility and functionality regardless of
-                        the underlying tech{" "}
+                      Address plethora of data extraction and integration scenarios{" "}
                       </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-4/12">

@@ -19,7 +19,7 @@ export default function Services() {
         </h3>
       </div>
       <div className="flex flex-col space-y-8 justify-between lg:flex-row lg:space-y-0 lg:space-x-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <Link href="/services/plm&allied-services">
             <div className="relative p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-blue group-hover:scale-x-100" />
@@ -45,7 +45,7 @@ export default function Services() {
                   </svg>
 
                   <div className="flex gap-2 items-center ">
-                    <h1 className=" text-xl items-center flex font-bold">
+                    <h1 className=" text-lg items-center flex font-bold">
                       PLM & Allied Services
                     </h1>
                     <svg
@@ -97,7 +97,7 @@ export default function Services() {
                   </svg>
 
                   <div className="flex  gap-2 items-center ">
-                    <h1 className=" text-xl items-center flex font-bold">
+                    <h1 className=" text-lg items-center flex font-bold">
                       PLM Managed Services
                     </h1>
                     <svg
@@ -153,8 +153,8 @@ export default function Services() {
                     />
                   </svg>
                   <div className="flex gap-2 items-center text-maven-blue">
-                    <h1 className=" text-xl items-center flex font-bold">
-                      Engineering Services
+                    <h1 className=" text-lg items-center flex font-bold">
+                      Engineering Automation
                     </h1>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -179,15 +179,58 @@ export default function Services() {
               </div>
             </div>
           </Link>
+          <Link href="/services/plm&allied-services">
+            <div className="relative p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
+              <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
+              <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
+              <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
+              <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
+              <div className="relative bg-maven-bg  p-5">
+                <div className="absolute h-1/2 inset-0 opacity-30 bg-gradient-to-r from-maven-orange via-maven-bg to-transparent  bg-top [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
+                <div className="flex justify-end h-full flex-col gap-4 text-maven-orange">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="w-10 h-10"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+                    />
+                  </svg>
+
+                  <div className="flex gap-2 items-center ">
+                    <h1 className=" text-lg items-center flex font-bold">
+                      Simulation Services
+                    </h1>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
+                      stroke="currentColor"
+                      className="w-5 h-5"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                  <p className="text-maven-white">
+                    We elevate PLM's effectiveness through tailored tools and
+                    processes, catering to all product lifecycle aspects.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Link>
         </div>
-        {/* <div className="lg:w-1/4 flex items-center justify-center">
-          <Image
-            src="/servicesImage.svg"
-            alt="services"
-            width={500}
-            height={500}
-          /> 
-        </div> */}
       </div>
     </div>
   );
