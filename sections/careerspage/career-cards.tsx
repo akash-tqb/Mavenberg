@@ -16,7 +16,7 @@ export default function CareerCards() {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
         <div className="flex flex-col text-center items-center mb-12 lg:mb-20">
           <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
-            Job
+            Job{' '}
             <span className=" text-maven-blue ">Openings</span>
           </h1>
           {/* <h3 className="text-maven-white max-w-3xl">

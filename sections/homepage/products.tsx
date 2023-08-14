@@ -55,7 +55,7 @@ export default function Products() {
                   <div className="flex flex-row gap-2">
                     <div className="lg:block hidden p-2 rounded-md border border-maven-white text-maven-white w-1/2 lg:w-4/12">
                       <h1 className="font-bold mb-1 text-sm text-maven-orange">
-                        Configurability
+                        Configurable
                       </h1>
                       <p className="text-xs">
                         Enhances adaptability by decreasing need for expertise
@@ -111,8 +111,7 @@ export default function Products() {
                       Verticalized configurator
                     </h1>
                     <p className="text-maven-white">
-                      Amalgamation of lean PLM & ERP application to empower
-                      verticalized product OEM{" "}
+                      Amalgamation of lean PLM & ERP application to empower Small and Medium Business Units{" "}
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -220,14 +219,14 @@ export default function Products() {
                       TC & Alias Integration
                     </h1>
                     <p className="text-maven-white">
-                      Seamlessly manage your conceptual design in Auto Desk
+                      Seamlessly manage your conceptual design in Autodesk
                       Alias across Teamcenter
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
-                        Object creation
+                        Traceability
                       </h1>
                       <p className="text-xs ">
                         Easily create & modify parts and assemblies
@@ -235,7 +234,7 @@ export default function Products() {
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
-                        Data retrieval
+                        Supports MBSE
                       </h1>
                       <p className="text-xs ">Find correct data revision</p>
                     </div>
