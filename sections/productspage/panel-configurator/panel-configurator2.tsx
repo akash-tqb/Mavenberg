@@ -11,7 +11,7 @@ export default function PanelConfigurator2() {
         </h1>
         <h3 className="text-maven-white">
           Intuitive combination of lean PLM and ERP that enables you to
-          customize your product layout and its extensive features. Stage your
+          customize your product layout and it's extensive features. Stage your
           components from frames to sheets according to your bespoke needs
         </h3>
       </div>
