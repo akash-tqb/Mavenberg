@@ -13,7 +13,7 @@
     width: 100%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
 .animate-typewriter {
   display: inline-block;
   overflow: hidden;
