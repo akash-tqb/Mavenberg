@@ -13,12 +13,13 @@
     width: 100%;
   }
 }
-
+@media screen and (min-width: 1024px) {
 .animate-typewriter {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   animation: typewriter 5s steps(40) 1s infinite;
+}
 }
 @media screen and (min-width: 1024px) {
   .lg-nav-shadow{
