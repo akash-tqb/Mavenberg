@@ -139,11 +139,9 @@ export default function WhyUs() {
                 Engagement Model
               </h1>
               <p className="text-maven-white">
-              Keeping flexibility in mind and understanding that each requirement from you needs the highest form of effective communication
+              Keeping flexibility in mind and understanding that each requirement from you needs the highest form of effective communication. We follow a hybrid engagement model that enables us to be:{" "}
               </p>
-              <p className="text-maven-white">
-              We follow a hybrid engagement model that enables us to be:{" "}
-              </p>
+
               <div className="flex flex-row gap-2 items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

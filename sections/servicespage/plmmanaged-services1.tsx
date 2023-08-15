@@ -1,6 +1,6 @@
 export default function PlmManagedServices1() {
   return (
-    <section className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
+    <section className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20 text-justify">
       <div className="space-y-5 max-w-4xl mx-auto text-center mb-12">
         <h1 className="text-4xl text-maven-white font-extrabold mx-auto md:text-5xl mb-12">
           PLM{" "}
