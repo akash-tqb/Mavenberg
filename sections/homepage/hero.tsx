@@ -39,11 +39,11 @@ export default function Hero() {
                       </div>
       <div className="flex flex-col gap-12 lg:gap-0 justify-between lg:flex-row">
         <div className="lg:w-1/2 flex flex-col gap-12 items-center">
-          <h1 className="mb-10 font-sans text-3xl text-center font-bold text-maven-white sm:text-4xl sm:leading-none">
+          <h1 className="mb-10 font-sans text-3xl text-center font-bold text-maven-white sm:text-4xl leading-8">
             Digitize Your Business with Our{' '}
             <span
-          className={`inline-block bg-clip-text ${
-            showAmazing ? 'bg-gradient-to-r from-maven-blue to-maven-orange -translate-y-1' : 'bg-gradient-to-r from-maven-orange to-maven-blue'
+          className={`inline-block bg-clip-text  ${
+            showAmazing ? 'bg-gradient-to-r from-maven-blue to-maven-orange' : 'bg-gradient-to-r from-maven-orange to-maven-blue'
           } text-transparent transition-all duration-100`}
         >            {showAmazing ? 'Disruptive Solutions' : 'Transformative Innovations'}
             </span>
