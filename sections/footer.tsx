@@ -10,7 +10,7 @@ export default function Footer() {
             <a
               href="/"
               aria-label="Go home"
-              title="Company"
+              title="Mavenberg"
               className="inline-flex items-center"
             >
               <div>
