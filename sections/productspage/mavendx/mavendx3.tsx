@@ -1,13 +1,13 @@
 export default function MavenDx3() {
   return (
     <section className="flex items-center justify-center bg-gray-100 ">
-      <div className="px-4 py-20 mx-auto max-w-7xl">
+      <div className="px-4 pt-20 mx-auto max-w-7xl">
         <div className="px-4 mb-10 md:text-center md:mb-20">
           <h2 className="pb-2 mb-4 text-2xl md:text-4xl font-bold text-maven-white">
-            Streamlined Data Extraction and Integration With Customizable
-            Retrieval, and Proactive Error Handling{" "}
+            Streamlined Data Extraction and Integration with{" "}
             <span className="text-maven-blue">
-              Data-Driven Growth and Innovation
+            Customizable
+            Retrieval, and Proactive Error Handling
             </span>
           </h2>
           <p className="text-maven-white mb-2">

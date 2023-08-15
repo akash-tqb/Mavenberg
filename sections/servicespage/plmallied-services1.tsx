@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PlmAlliedServices1() {
   return (
-    <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <section className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
     <div className="space-y-5 max-w-4xl mx-auto text-center">
       <h2 className="text-4xl text-maven-white font-extrabold mx-auto md:text-5xl">
         PLM and Allied{" "}

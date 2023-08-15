@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function CarrersHero() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+    <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
       <div className="flex flex-col space-y-12 justify-between lg:flex-row lg:space-y-0">
         <div className="lg:w-1/2 flex flex-col justify-center">
           <div className="flex flex-col justify-center">

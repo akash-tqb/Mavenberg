@@ -13,7 +13,7 @@ export default function CareerCards() {
   const [tabIndex, setTabIndex] = useState<number | null>(0);
   return (
     <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+      <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
         <div className="flex flex-col text-center items-center mb-12 lg:mb-20">
           <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
             Job{' '}

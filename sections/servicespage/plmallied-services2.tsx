@@ -1,7 +1,7 @@
 export default function PlmAlliedServices2() {
   return (
     <section className="flex items-center justify-center bg-gray-100 ">
-      <div className="px-4 pb-20 mx-auto max-w-7xl">
+      <div className="px-4 pt-20 mx-auto max-w-7xl">
         <div className="px-4 mb-10 md:text-center md:mb-20">
           <h2 className="pb-2 text-2xl font-bold text-maven-white md:text-4xl ">
             Our <span className="text-maven-blue">Services</span>

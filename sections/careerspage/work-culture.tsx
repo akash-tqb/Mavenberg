@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WorkCulture() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+    <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
       <div className="mb-12">
         <h1 className="sm:text-5xl text-3xl font-sans font-bold tracking-wide text-maven-white">
           You’d fit in like a{" "}

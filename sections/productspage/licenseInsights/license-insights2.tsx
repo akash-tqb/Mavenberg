@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ProductsPageSection2() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="lg:mb-20 mb-12">
+      <div className="mb-6">
         <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
           Unleash Your{" "}
           <span className=" text-maven-blue">License Insights</span>
@@ -13,7 +13,7 @@ export default function ProductsPageSection2() {
           One-stop-shop to check the usage of various licenses through an
           intuitive visual representation and therefore helps draw valuable
           insight to better benefit the business and stretch the usage of those
-          expensive licenses to their maximum limit.
+          expensive licenses to their maximum limit
         </h3>
       </div>
       <div className="flex flex-col-reverse gap-8 lg:flex-row-reverse w-full p-8  lg:p-12 ">
@@ -25,7 +25,7 @@ export default function ProductsPageSection2() {
             <p className="text-maven-white">
               We have a list of specific visualisations that help you draw
               insights on your PLM application license usage for customizable
-              inputs.
+              inputs
             </p>
             <ul className="flex flex-col gap-4">
               <li className="flex flex-row gap-4">
@@ -77,7 +77,9 @@ export default function ProductsPageSection2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white w-[90%]">License denied count graph</p>
+                <p className="text-maven-white w-[90%]">
+                  License denied count graph
+                </p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg

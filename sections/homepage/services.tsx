@@ -8,10 +8,10 @@ export default function Services() {
       className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
     >
       <div className="mb-12">
-        <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+        <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white text-justify">
           Our <span className=" text-maven-blue">Services</span>
         </h1>
-        <h3 className="text-maven-white">
+        <h3 className="text-maven-white text-justify">
           Our services streamline the end-to-end management of your product's
           lifecycle, from concept to retirement. We ensure enhanced
           collaboration, data management, and process efficiency, resulting in
@@ -63,7 +63,7 @@ export default function Services() {
                       />
                     </svg>
                   </div>
-                  <p className="text-maven-white">
+                  <p className="text-maven-white text-justify">
                     We elevate PLM's effectiveness through tailored tools and
                     processes, catering to all product lifecycle aspects
                   </p>
@@ -114,7 +114,7 @@ export default function Services() {
                       />
                     </svg>
                   </div>
-                  <p className="text-maven-white">
+                  <p className="text-maven-white text-justify">
                     We oversee the full product lifecycle, from design to
                     end-of-life, offering operational efficiency and expertise
                   </p>
@@ -170,7 +170,7 @@ export default function Services() {
                       />
                     </svg>
                   </div>
-                  <p className="text-maven-white">
+                  <p className="text-maven-white text-justify">
                     We implement automation in your engineering to optimize
                     workflows, reduce manual tasks, and boost productivity
                   </p>
@@ -221,7 +221,7 @@ export default function Services() {
                       />
                     </svg>
                   </div>
-                  <p className="text-maven-white">
+                  <p className="text-maven-white text-justify">
                     We provide advanced simulation solutions that helps to
                     analyze complex scenarios to facilitate informed
                     decision-making
