@@ -4,7 +4,7 @@ export default function WhyUs() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="mb-6">
-        <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+        <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
           Why <span className=" text-maven-blue">Us?</span>
         </h1>
         {/* <h3 className="text-maven-white">
@@ -196,7 +196,7 @@ export default function WhyUs() {
                   />
                 </svg>
 
-                <p className="text-maven-white">Flexibility</p>
+                <p className="text-maven-white">Flexibile</p>
               </div>
             </div>
           </div>

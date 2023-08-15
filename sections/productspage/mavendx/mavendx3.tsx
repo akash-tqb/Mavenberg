@@ -3,7 +3,7 @@ export default function MavenDx3() {
     <section className="flex items-center justify-center bg-gray-100 ">
       <div className="px-4 pt-20 mx-auto max-w-7xl">
         <div className="px-4 mb-10 md:text-center md:mb-20">
-          <h2 className="pb-2 mb-4 text-2xl md:text-4xl font-bold text-maven-white">
+          <h2 className="pb-2 mb-4 text-3xl sm:text-4xl font-bold text-maven-white">
             Streamlined Data Extraction and Integration with{" "}
             <span className="text-maven-blue">
               Customizable Retrieval, and Proactive Error Handling

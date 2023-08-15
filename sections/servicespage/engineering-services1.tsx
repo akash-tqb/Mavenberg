@@ -4,14 +4,14 @@ export default function EngineeringServices1() {
   return (
     <section className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20 text-justify">
       <div className="space-y-5 max-w-5xl mx-auto text-center mb-12">
-        <h1 className="text-4xl text-maven-white font-extrabold mx-auto md:text-5xl mb-12">
+        <h1 className="text-3xl text-maven-white font-extrabold mx-auto sm:text-4xl mb-12">
           Engineering{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
            Automation
           </span>
         </h1>
         <h1 className="mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-maven-white sm:text-4xl md:mx-auto">
-          CAD Data Conversion:{' '}<span className="text-maven-blue">Seamlessly Transition to the Future</span> 
+          CAD Data Conversion:{' '}<span className="text-maven-blue">Seamlessly Transition into the Future</span> 
         </h1>
         <p className="text-maven-white">
           Experience a hassle-free transition from legacy systems to modern

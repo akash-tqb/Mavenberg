@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function TCAliasIntegration2() {
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
-      <div className="mb-6 lg:max-w-5xl mx-auto text-center flex flex-col items-center justify-center">
-        <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
-        Work with a single{" "}
-          <span className=" text-maven-blue">source of truth</span>
+      <div className="mb-6 lg:max-w-8xl mx-auto text-center flex flex-col items-center justify-center">
+        <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+        Work with single source of truth by effortlessly overseeing your{" "}<br/>
+          <span className=" text-transparent bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">Autodesk Alias designs from within Teamcenter</span>
         </h1>
         <h3 className="text-maven-white">
         Incorporate Inventor files with your entire technical dataset, creating a unified repository of product information that fosters your end-to-end design-to-manufacturing workflow

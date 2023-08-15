@@ -7,9 +7,9 @@ export default function careers() {
   return (
     <>
       <CarrersHero />
-      <CareerCards />
       <WorkCulture />
       <CareersPerks/>
+      <CareerCards />
     </>
   );
 }

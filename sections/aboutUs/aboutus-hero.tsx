@@ -5,7 +5,7 @@ export default function AboutUsHero() {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
       <div className="flex flex-col gap-12 justify-between lg:flex-row mb-20">
         <div className="flex flex-col max-w-xl">
-          <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+          <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
             About{' '}
             <span className=" text-maven-blue ">Us</span>
           </h1>

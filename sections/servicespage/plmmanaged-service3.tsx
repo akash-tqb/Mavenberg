@@ -3,7 +3,7 @@ export default function PlmManagedService3() {
     <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-justify">
       <div className="justify-center flex-1 max-w-6xl mx-auto">
         <div className="px-4 mb-10 md:text-center md:mb-20">
-          <h2 className="pb-2 text-2xl font-bold text-maven-white md:text-4xl ">
+          <h2 className="pb-2 text-3xl font-bold text-maven-white sm:text-4xl ">
             We Ensure
           </h2>
           <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">

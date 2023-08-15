@@ -5,7 +5,7 @@ export default function Values() {
     <>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
         <div className="mb-10">
-          <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+          <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
             Why We Do{' '}<span className=" text-maven-blue ">What We Do</span>
           </h1>
           {/* <h3 className="text-maven-white max-w-3xl">
@@ -42,7 +42,7 @@ export default function Values() {
                    Vision
                   </h3>
                   <p>
-                  To be reliable digitization partner to our customers by 2025
+                  To be a reliable digitization partner to our customers by 2025
                   </p>
                 </div>
               </div>

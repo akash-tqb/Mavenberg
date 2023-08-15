@@ -5,7 +5,7 @@ export default function CarrersHero() {
       <div className="flex flex-col space-y-12 justify-between lg:flex-row lg:space-y-0">
         <div className="lg:w-1/2 flex flex-col justify-center">
           <div className="flex flex-col justify-center">
-            <h1 className="sm:text-5xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+            <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
             We believe every effort counts,{' '}
               <span className=" text-maven-blue ">Join us!</span>
             </h1>
