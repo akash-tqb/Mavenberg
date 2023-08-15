@@ -5,7 +5,21 @@
 .nav-shadow{
   box-shadow: 0 0 6px 2px #03e5e5;
 }
+@keyframes typewriter {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 100%;
+  }
+}
 
+.animate-typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 5s steps(40) 1s infinite;
+}
 @media screen and (min-width: 1024px) {
   .lg-nav-shadow{
     box-shadow: 0 0 6px 2px #03e5e5;
