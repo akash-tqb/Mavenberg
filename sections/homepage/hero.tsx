@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="flex justify-center lg:hidden">
+      <div className="flex justify-center lg:hidden z-0 mb-6">
             <div className="relative">
             <p className="text-lg tracking-wider text-maven-orange">
               Happy <span className="text-maven-white">Independence</span>{" "}

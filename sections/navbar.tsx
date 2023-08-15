@@ -134,7 +134,7 @@ export default function Navbar() {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full">
+              <div className="absolute top-0 left-0 w-full z-20">
                 <div className="p-5 bg-maven-bg shadow-md shadow-maven-blue border rounded">
                   <div className="flex items-center justify-between mb-4">
                     <div>
