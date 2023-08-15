@@ -5,8 +5,7 @@ export default function MavenDx3() {
         <div className="px-4 mb-10 md:text-center md:mb-20">
           <h2 className="pb-2 mb-4 text-2xl md:text-4xl font-bold text-maven-white">
             Streamlined Data Extraction and Integration With Customizable
-            Retrieval, and Proactive Error Handling, Propelling Your Team
-            Towards{" "}
+            Retrieval, and Proactive Error Handling{" "}
             <span className="text-maven-blue">
               Data-Driven Growth and Innovation
             </span>
@@ -45,7 +44,7 @@ export default function MavenDx3() {
               {" "}
               Robust Customization{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               MavenDX offers a comprehensive and customizable toolset that
               adapts to your company's specific requirements, enabling tailored
               data extraction and integration processes
@@ -72,7 +71,7 @@ export default function MavenDx3() {
               {" "}
               Data Traceability{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               Accurately tracking the movement and transformations of data
               throughout the extraction and integration processes is ensured and
               every step of data handling is transparent and in accordance to
@@ -100,7 +99,7 @@ export default function MavenDx3() {
               {" "}
               Versatile Integration{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               Seamlessly integrate with various applications, making it a
               versatile extraction tool suitable for a wide range of scenarios
               for data extraction
@@ -129,7 +128,7 @@ export default function MavenDx3() {
               {" "}
               Automated Data Exchange{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               Automate data exchange between Teamcenter and other integrated
               platforms, eliminating manual transfers and enabling real-time,
               accurate data exchange
@@ -156,7 +155,7 @@ export default function MavenDx3() {
               {" "}
               Secure Data Storage{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               MavenDX places a strong emphasis on data security, ensuring that
               retrieved data is stored safely and reliably in a secure database,
               facilitating easy and secure access for analysis

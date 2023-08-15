@@ -19,14 +19,14 @@ export default function Services() {
         </h3>
       </div>
       <div className="flex flex-col space-y-8 justify-between lg:flex-row lg:space-y-0 lg:space-x-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
           <Link href="/services/plm&allied-services">
-            <div className="relative p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
+            <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-blue group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-blue group-hover:scale-y-100" />
               <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-maven-blue group-hover:scale-x-100" />
               <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-maven-blue group-hover:scale-y-100" />
-              <div className="relative bg-maven-bg  p-5">
+              <div className="relative flex items-end bg-maven-bg h-full  p-5">
                 <div className="absolute h-1/2 inset-0 opacity-30 bg-gradient-to-r from-maven-blue via-maven-bg to-transparent  bg-top [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
                 <div className="flex justify-end h-full flex-col gap-4 text-maven-blue">
                   <svg
@@ -71,15 +71,14 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <Link href="/services/plm-managed-services" className="">
+          <Link href="/services/plm-managed-services">
             <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
               <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
               <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
-              <div className="relative flex items-end h-full bg-maven-bg p-5 text-maven-orange">
+              <div className="relative flex items-end bg-maven-bg h-full  p-5">
                 <div className="absolute h-1/2 inset-0 opacity-30 bg-gradient-to-r from-maven-orange via-maven-bg to-transparent  bg-top [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
-
                 <div className="flex justify-end h-full flex-col gap-4 text-maven-orange">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +95,7 @@ export default function Services() {
                     />
                   </svg>
 
-                  <div className="flex  gap-2 items-center ">
+                  <div className="flex gap-2 items-center ">
                     <h1 className=" text-lg items-center flex font-bold">
                       PLM Managed Services
                     </h1>
@@ -123,7 +122,7 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <Link href="/services/engineering-services" className="">
+          <Link href="/services/engineering-services">
             <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-blue group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-blue group-hover:scale-y-100" />
@@ -153,7 +152,7 @@ export default function Services() {
                     />
                   </svg>
                   <div className="flex gap-2 items-center text-maven-blue">
-                    <h1 className=" text-lg items-center flex font-bold">
+                    <h1 className=" text-lg flex font-bold">
                       Engineering Automation
                     </h1>
                     <svg
@@ -172,19 +171,20 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                  We implement automation in your engineering to optimize workflows, reduce manual tasks, and boost productivity
+                    We implement automation in your engineering to optimize
+                    workflows, reduce manual tasks, and boost productivity
                   </p>
                 </div>
               </div>
             </div>
           </Link>
           <Link href="/services/simulation-services">
-            <div className="relative p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
+            <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
               <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
               <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
-              <div className="relative bg-maven-bg  p-5">
+              <div className="relative flex items-end bg-maven-bg h-full  p-5">
                 <div className="absolute h-1/2 inset-0 opacity-30 bg-gradient-to-r from-maven-orange via-maven-bg to-transparent  bg-top [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
                 <div className="flex justify-end h-full flex-col gap-4 text-maven-orange">
                   <svg
@@ -222,7 +222,9 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                  We provide advanced simulation solutions that helps to analyze complex scenarios to facilitate informed decision-making
+                    We provide advanced simulation solutions that helps to
+                    analyze complex scenarios to facilitate informed
+                    decision-making
                   </p>
                 </div>
               </div>
