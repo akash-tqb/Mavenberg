@@ -17,7 +17,7 @@ export default function SimulationServices1() {
           drive your manufacturing processes to new heights. We understand that
           precision is paramount in manufacturing. Our Simulation Services
           strengthen your decision making, enhance operations, and elevate your
-          manufacturing excellence.
+          manufacturing excellence
         </p>
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
@@ -28,7 +28,7 @@ export default function SimulationServices1() {
             </h6>
             <p className=" text-maven-white">
               We create accurate digital models of your manufacturing processes,
-              allowing us to replicate and analyse real-world scenarios.
+              allowing us to replicate and analyse real-world scenarios
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function SimulationServices1() {
             </h6>
             <p className=" text-maven-white">
               Through detailed simulation runs, we assess the performance of
-              your processes, identifying areas for optimization.
+              your processes, identifying areas for optimization
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function SimulationServices1() {
             </h6>
             <p className=" text-maven-white">
               Provide actionable recommendations to enhance efficiency, reduce
-              costs, and improve overall production quality.
+              costs, and improve overall production quality
             </p>
           </div>
         </div>

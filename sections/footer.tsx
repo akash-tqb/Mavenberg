@@ -28,7 +28,7 @@ export default function Footer() {
                 takes end to end responsibility of your digital investment
                 outcomes and transforms your business by offering products and
                 services focused on managing the digital thread across your
-                product's life cycle.
+                product's life cycle
               </p>
               {/* <p className="mt-4 text-sm text-maven-white">
                   Eaque ipsa quae ab illo inventore veritatis et quasi
@@ -276,7 +276,6 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="flex gap-4 items-center"
                 >
-                  <p className="text-maven-white">Get Connected with Us</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -294,6 +293,7 @@ export default function Footer() {
                       ></path>
                     </g>
                   </svg>
+                  <p className="text-maven-white">Start Connecting the Dots</p>
                 </Link>
               </div>
             </div>

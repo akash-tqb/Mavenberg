@@ -14,7 +14,7 @@ export default function Products() {
           </h1>
           <h3 className="text-maven-white">
             Discover and harness the potential of your data scattered across
-            disparate systems using our product offerings.
+            disparate systems using our product offerings
           </h3>
         </div>
       </div>
@@ -119,18 +119,18 @@ export default function Products() {
                   <div className="flex flex-row gap-2">
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
-                        Plan
+                        Configure
                       </h1>
                       <p className="text-xs ">
-                        Formulate and visualize verticalized product
+                        Customize product to your tailored requirements{" "}
                       </p>
                     </div>
                     <div className="p-2 rounded-md border border-maven-white text-maven-white w-1/2">
                       <h1 className="font-bold mb-1 text-sm text-maven-blue">
-                        Analyze
+                        Sell
                       </h1>
                       <p className="text-xs ">
-                        Optimize product configuration and cost
+                        Drive sales by fulfilling unique competitive demands{" "}
                       </p>
                     </div>
                   </div>

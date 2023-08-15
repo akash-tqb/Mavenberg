@@ -9,7 +9,7 @@ export default function EngineeringServices2() {
           Redefine unparalleled efficiency with CAD Data Automations. Our
           solutions provide your design and engineering teams to focus on
           innovation by automating repetitive tasks and accelerating project
-          timelines.
+          timelines
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-3 md:grid-cols-1">
@@ -20,7 +20,7 @@ export default function EngineeringServices2() {
             </h6>
             <p className=" text-maven-white">
               Free your engineers from repetitive tasks, allowing them to focus
-              on high-value design and analysis.
+              on high-value design and analysis
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function EngineeringServices2() {
             </h6>
             <p className=" text-maven-white">
               Tailor automation workflows to your specific needs, aligning with
-              your unique design processes.
+              your unique design processes
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function EngineeringServices2() {
             </h6>
             <p className=" text-maven-white">
               Minimize human errors and inconsistencies through standardized,
-              automated procedures.
+              automated procedures
             </p>
           </div>
         </div>

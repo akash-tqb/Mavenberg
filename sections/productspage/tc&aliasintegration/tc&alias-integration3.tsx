@@ -30,7 +30,7 @@ export default function TCAliasIntegration3() {
             <p className="text-maven-white/80 text-justify">
               All design-related information, including sketches, 3D models, and
               associated documents, can be stored and managed in a central
-              repository.{" "}
+              repository{" "}
             </p>
           </div>
           <div className=" lg:row-end-[8] lg:row-start-1 lg:col-start-2 gap-2 flex flex-col justify-center  border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -55,7 +55,7 @@ export default function TCAliasIntegration3() {
             <p className="text-maven-white/80 text-justify">
               Manage different design iterations and versions within Alias. This
               ensures that the most up-to-date design is readily available and
-              reduces confusion caused by outdated or conflicting versions.{" "}
+              reduces confusion caused by outdated or conflicting versions{" "}
             </p>
           </div>
           <div className="lg:row-span-4 lg:col-start-3 gap-2 flex flex-col justify-end border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -79,7 +79,7 @@ export default function TCAliasIntegration3() {
             </h3>
             <p className="text-maven-white/80 text-justify">
               Maximize collaboration and save time finding the correct revisions
-              of Alias data.
+              of Alias data
             </p>
           </div>
           <div className="lg:col-start-1 lg:row-span-3 p-4 flex flex-col justify-end lg:p-8 space-y-2 rounded-lg border border-maven-white">
@@ -104,7 +104,7 @@ export default function TCAliasIntegration3() {
             <p className="text-maven-white/80 text-justify">
               Create automated workflows that trigger certain actions based on
               design milestones or approvals. This simplifies and accelerates
-              design processes.{" "}
+              design processes{" "}
             </p>
           </div>
 
@@ -128,7 +128,7 @@ export default function TCAliasIntegration3() {
             <p className="text-maven-white/80 text-justify">
               As your design projects and team grow, scalability is ensured by
               providing a structured environment for managing and expanding your
-              design data and processes.{" "}
+              design data and processes{" "}
             </p>
           </div>
         </div>

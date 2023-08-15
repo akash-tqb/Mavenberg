@@ -8,7 +8,7 @@ export default function PlmManagedService2() {
         <p className="text-base text-maven-white">
           We provide comprehensive oversight and facilitation of the entire
           process of introducing, implementing, and sustaining a Product
-          Lifecycle Management application tailored for you.
+          Lifecycle Management application tailored for you
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
@@ -19,7 +19,7 @@ export default function PlmManagedService2() {
             </h6>
             <p className=" text-maven-white">
               Holistic management of the entire PLM application adoption process
-              and ensuring alignment with organizational goals and objectives.
+              and ensuring alignment with organizational goals and objectives
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function PlmManagedService2() {
             <p className=" text-maven-white">
               Providing training sessions to familiarize users with the PLM
               application and offer resources and guidance to facilitate smooth
-              user onboarding.
+              user onboarding
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function PlmManagedService2() {
             <p className=" text-maven-white">
               Managing updates, patches, and upgrades to keep the PLM
               application current to ensure the application's technical
-              reliability and performance.
+              reliability and performance
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function PlmManagedService2() {
               Performance Monitoring
             </h6>
             <p className=" text-maven-white">
-              Monitoring the application's performance and usage patterns.
+              Monitoring the application's performance and usage patterns
             </p>
           </div>
         </div>

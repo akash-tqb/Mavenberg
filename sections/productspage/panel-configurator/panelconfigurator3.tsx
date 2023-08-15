@@ -8,7 +8,7 @@ export default function PanelConfigurator3() {
           Benefits
         </h1>
         <p className="text-maven-white mb-12">
-          Streamline the entire design and development process.
+          Streamline the entire design and development process
         </p>
         <div className="grid lg:grid-cols-3 lg:grid-rows-7 gap-8">
           <div className="lg:col-start-1 lg:row-end-5 lg:row-start-1 flex flex-col gap-2 justify-end border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -30,7 +30,7 @@ export default function PanelConfigurator3() {
             <h3 className="text-maven-blue text-xl font-bold ">Accuracy</h3>
             <p className="text-maven-white/80 text-justify">
               Minimizes the risk of human errors in product design and layout,
-              ensuring precise and error-free configurations.
+              ensuring precise and error-free configurations
             </p>
           </div>
           <div className=" lg:row-end-[8] lg:row-start-1 lg:col-start-2 gap-2 flex flex-col justify-center  border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -53,7 +53,7 @@ export default function PanelConfigurator3() {
             <p className="text-maven-white/80 text-justify">
               Allows users to experiment with different configurations and
               arrangements before finalizing the design, enabling optimal
-              utilization of space and resources.
+              utilization of space and resources
             </p>
           </div>
           <div className="lg:row-span-4 lg:col-start-3 gap-2 flex flex-col justify-end border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -77,7 +77,7 @@ export default function PanelConfigurator3() {
             </h3>
             <p className="text-maven-white/80 text-justify">
               Reduces the potential for costly mistakes and rework by catching
-              errors early in the design process.
+              errors early in the design process
             </p>
           </div>
           <div className="lg:col-start-1 lg:row-span-3 p-4 flex flex-col justify-end lg:p-8 space-y-2 rounded-lg border border-maven-white">
@@ -101,7 +101,7 @@ export default function PanelConfigurator3() {
             </h3>
             <p className="text-maven-white/80 text-justify">
               Provides an intuitive interface that requires minimal technical
-              expertise, making it accessible to a wider range of users.
+              expertise, making it accessible to a wider range of users
             </p>
           </div>
 
@@ -124,7 +124,7 @@ export default function PanelConfigurator3() {
             <h3 className="text-maven-blue text-xl font-bold">Adaptability</h3>
             <p className="text-maven-white/80 text-justify">
               Easily accommodates changes or updates in design requirements,
-              making it simpler to adjust configurations as needed.
+              making it simpler to adjust configurations as needed
             </p>
           </div>
         </div>

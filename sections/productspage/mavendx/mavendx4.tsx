@@ -9,7 +9,7 @@ export default function MavenDx4() {
           MavenDX's features provide a holistic solution that not only enhances
           data extraction and integration but also contributes to increased
           productivity, improved data management, and a stronger focus on
-          leveraging data for business success.
+          leveraging data for business success
         </p>
         <div className="grid lg:grid-cols-3 lg:grid-rows-7 gap-8">
           <div className="lg:col-start-1 lg:row-end-5 lg:row-start-1 flex flex-col gap-2 justify-end border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -34,7 +34,7 @@ export default function MavenDx4() {
             <p className="text-maven-white/80 text-justify">
               MavenDX allows you to tailor data retrieval and integration to
               align seamlessly with your existing workflows, ensuring efficient
-              and personalized data management.{" "}
+              and personalized data management{" "}
             </p>
           </div>
           <div className=" lg:row-end-[8] lg:row-start-1 lg:col-start-2 gap-2 flex flex-col justify-center  border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -60,7 +60,7 @@ export default function MavenDx4() {
               By automating data exchange between Teamcenter and integrated
               platforms, MavenDX eliminates manual transfers, introducing
               accurate, real-time, and automated data exchange, boosting
-              efficiency and productivity.{" "}
+              efficiency and productivity{" "}
             </p>
           </div>
           <div className="lg:row-span-4 lg:col-start-3 gap-2 flex flex-col justify-end border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -85,7 +85,7 @@ export default function MavenDx4() {
             <p className="text-maven-white/80 text-justify">
               MavenDX empowers your team to focus on data insights, fostering
               growth and innovation by leveraging the extracted data
-              effectively.
+              effectively
             </p>
           </div>
           <div className="lg:col-start-1 lg:row-span-3 p-4 flex flex-col justify-end lg:p-8 space-y-2 rounded-lg border border-maven-white">
@@ -108,7 +108,7 @@ export default function MavenDx4() {
             <p className="text-maven-white/80 text-justify">
               The platform prioritizes data security, providing a reliable
               database for storing retrieved information, guaranteeing safe and
-              easy access for analysis whenever needed.{" "}
+              easy access for analysis whenever needed{" "}
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function MavenDx4() {
             <p className="text-maven-white/80 text-justify">
               MavenDX's adaptable design accommodates your unique processes and
               aligns seamlessly with your organizational goals, harnessing your
-              business' distinct strengths.{" "}
+              business' distinct strengths{" "}
             </p>
           </div>
         </div>

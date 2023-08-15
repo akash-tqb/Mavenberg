@@ -15,7 +15,7 @@ export default function PlmManagedServices1() {
           Our cloud infrastructure management solutions facilitate the
           configuration, monitoring and optimization of complex environments,
           allowing your IT teams to maximize the advantages and minimize the
-          challenges of cloud computing.
+          challenges of cloud computing
         </p>
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
@@ -26,7 +26,7 @@ export default function PlmManagedServices1() {
           </h6>
           <p className=" text-maven-white">
             Efficiently allocate and manage computing, storage, and network
-            resources and their configuration.
+            resources and their configuration
           </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function PlmManagedServices1() {
           </h6>
           <p className=" text-maven-white">
             Dynamically adjust resources based on traffic and demand
-            fluctuations with real-time alerts.
+            fluctuations with real-time alerts
           </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function PlmManagedServices1() {
           </h6>
           <p className=" text-maven-white">
             Implement security measures, access controls, and encryption
-            protocols.
+            protocols
           </p>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function PlmManagedServices1() {
           </h6>
           <p className=" text-maven-white">
             Analyze usage patterns and optimize resource allocation to minimize
-            costs.
+            costs
           </p>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function PlmManagedServices1() {
               Application Deployment
             </h6>
             <p className=" text-maven-white">
-              Deploy and manage applications, containers, and microservices.
+              Deploy and manage applications, containers, and microservices
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function PlmManagedServices1() {
             </h6>
             <p className=" text-maven-white">
               Plan and execute the migration of applications and data to the
-              cloud.
+              cloud
             </p>
           </div>
         </div>

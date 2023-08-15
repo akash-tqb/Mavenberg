@@ -15,7 +15,7 @@ export default function PlmAlliedServices2() {
         <div className="grid grid-cols-1 gap-x-4 gap-y-6 lg:gap-x-8 lg:gap-y-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
             <div className="inline-block p-4 mb-6 -mt-16 bg-maven-blue rounded-full">
-            <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
                 height="40"
@@ -33,11 +33,11 @@ export default function PlmAlliedServices2() {
             </h3>
             <p className="text-base text-maven-white">
               We specialize in delivering end-to-end Product Lifecycle
-              Management (PLM) implementation solutions, guiding organizations
-              through seamless integration of cutting-edge software, process
+              Management implementation solutions, guiding organizations through
+              seamless integration of cutting-edge software, process
               optimization, and change management strategies, to enhance
               collaboration, accelerate innovation, and streamline the entire
-              product lifecycle from concept to market.
+              product lifecycle from concept to market
             </p>
           </div>
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
@@ -66,7 +66,7 @@ export default function PlmAlliedServices2() {
               We also understand that you may need assistance in a single step
               or a part of the process. Seamlessly transferring and transforming
               data across systems, our data migration services ensure a smooth
-              transition while maintaining data integrity and accuracy.
+              transition while maintaining data integrity and accuracy
             </p>
           </div>
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
@@ -91,13 +91,12 @@ export default function PlmAlliedServices2() {
               Enterprise Integration{" "}
             </h3>
             <p className="text-base text-maven-white">
-              We specialize in integrating diverse enterprise systems, fostering
-              seamless data flow and communication, resulting in streamlined
-              operations and enhanced decision-making. We understands the
-              critical characteristics of system-to-system integration and
-              conflict/failure resolution. We have created, configured, and
-              developed numerous integrations across CAD, PDM, PLM, MRP, ERP,
-              CRM, legacy systems and custom applications.
+              We possess an in-depth understanding of the essential aspects of
+              system-to-system integration, including conflict and failure
+              resolution intricacies. Our expertise lies in seamlessly
+              integrating a wide array of enterprise systems, facilitating
+              smooth data flow to ensure enhanced operational efficiency across
+              diverse enterprise systems
             </p>
           </div>
         </div>
@@ -125,13 +124,11 @@ export default function PlmAlliedServices2() {
             </h3>
             <p className="text-base text-maven-white">
               Leveraging our proficiency in Teamcenter ,we understand that there
-              are specific challenges arise with new version of Teamcenter
-              upgrades. We ensure that your upgrade is a super success and we
-              make sure you get the full benefit of your investment in upgraded
-              projects and take it upon us to deliver gain in functionality and
-              performance. We also see it as an opportunity to revisit solutions
-              and architecture and possible customizations as per your bespoke
-              needs.
+              are specific challenges with each new version of Teamcenter
+              upgrades. We make sure you get the full benefit of your investment
+              in the upgraded projects. We also see it as an opportunity to
+              revisit solutions and architecture and possible customizations as
+              per your needs
             </p>
           </div>
           <div className="w-full p-8 mb-5 text-center transition-all bg-maven-blue/20 rounded shadow  hover:shadow-lg">
@@ -153,10 +150,10 @@ export default function PlmAlliedServices2() {
               ALM Implementation{" "}
             </h3>
             <p className="text-base text-maven-white">
-              Our team is dedicated to enabling Application Lifecycle Management
-              (ALM) implementation, allowing organizations to efficiently manage
-              software development cycles, automate workflows, and ensure
-              high-quality software products.
+              Our team is committed in facilitating the implementation of
+              Application Lifecycle Management, empowering your organization to
+              effectively oversee software development life cycle, automate
+              processes, and ensure the delivery of top-tier software products
             </p>
           </div>
         </div>

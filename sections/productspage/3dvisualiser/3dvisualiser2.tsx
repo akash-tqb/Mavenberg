@@ -12,7 +12,7 @@ export default function Dvisualiser2() {
         <h3 className="text-maven-white">
           We empower industrial automation customers to create 3D-based
           applications to increase usability and user acceptance by creating an
-          easy-to-use entry point to access and manage relevant data.
+          easy-to-use entry point to access and manage relevant data
         </h3>
       </div>
       <div className="flex flex-col-reverse gap-8 lg:flex-row w-full p-8  lg:p-12 ">
@@ -24,7 +24,7 @@ export default function Dvisualiser2() {
             <p className="text-maven-white">
               We make information consumption more ocular by enabling you to put
               information and data into its context and thus create a digital
-              twin visualization.
+              twin visualization
             </p>
             <ul className="flex flex-col gap-4 text-lg">
               <li className="flex flex-row gap-4">
@@ -123,26 +123,6 @@ export default function Dvisualiser2() {
                   />
                 </svg>
                 <p className="text-maven-white w-[90%]">
-                  Annote, add labels and markers to highlight specific features
-                  or details within the 3D model
-                </p>
-              </li>
-              <li className="flex flex-row gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6 text-maven-blue"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.5 12.75l6 6 9-13.5"
-                  />
-                </svg>
-                <p className="text-maven-white w-[90%]">
                   Manipulate, transform and deform 3D models to experiment with
                   different design variations{" "}
                 </p>
@@ -164,7 +144,7 @@ export default function Dvisualiser2() {
                 </svg>
                 <p className="text-maven-white w-[90%]">
                   Interactively explore 3D models from different angles, zoom in
-                  and out, and interact with elements.
+                  and out, and interact with elements
                 </p>{" "}
               </li>
             </ul>

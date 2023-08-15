@@ -36,7 +36,7 @@ export default function PlmManagedService3() {
                 Iteratively enhancing PLM application usage based on user
                 feedback and analyz data to identify areas for optimization and
                 improvement and adapting strategies to maximize the
-                application's impact over time.
+                application's impact over time
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function PlmManagedService3() {
                   Cross-Functional Collaboration:{" "}
                 </span>
                 Collaborating with various departments to ensure a cohesive and
-                collaborative approach to application adoption and support.
+                collaborative approach to application adoption and support
               </p>
             </div>
           </div>

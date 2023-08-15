@@ -15,7 +15,7 @@ export default function SimulationServices2() {
             <p className=" text-maven-white">
               Simulate your manufacturing processes to identify bottlenecks,
               optimize workflows, and streamline operations for maximum
-              efficiency.
+              efficiency
             </p>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function SimulationServices2() {
             </h6>
             <p className=" text-maven-white">
               Minimize resource wastage and operational inefficiencies by
-              identifying areas for improvement before implementation.
+              identifying areas for improvement before implementation
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function SimulationServices2() {
             <p className=" text-maven-white">
               Test different scenarios in a risk-free virtual environment,
               ensuring that your final product meets the highest quality
-              standards.
+              standards
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function SimulationServices2() {
             </h6>
             <p className=" text-maven-white">
               Accelerate product development cycles by iterating and refining
-              designs in the virtual realm, reducing physical prototyping time.{" "}
+              designs in the virtual realm, reducing physical prototyping time{" "}
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function SimulationServices2() {
             </h6>
             <p className=" text-maven-white">
               Make data-driven decisions with insights derived from simulations,
-              empowering you to choose the best strategies for your production.{" "}
+              empowering you to choose the best strategies for your production{" "}
             </p>{" "}
           </div>
         </div>

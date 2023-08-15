@@ -39,7 +39,7 @@ export default function TimeLine() {
                   <p className="text-maven-white">
                     Mavenberg Innovations India Pvt. Ltd., was Established in
                     the month of March in Bangalore. As our first phase we
-                    developed a 3D visualizer as an IOT platform plug - in.
+                    developed a 3D visualizer as an IOT platform plug - in
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function TimeLine() {
                   <p className="text-maven-white">
                     Started working with startups and Indian OEMs, and we were
                     able to effectively launch partnerships with 5 clients. With
-                    our team, 10 exceptional individuals began their adventure.
+                    our team, 10 exceptional individuals began their adventure
                   </p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function TimeLine() {
                   </p>
                   <p className="text-maven-white">
                     Enrollment of 20 New Talents as Mavenberg Advances, Broadens
-                    Partnerships with 8 More Clients.{" "}
+                    Partnerships with 8 More Clients{" "}
                   </p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function TimeLine() {
                   <p className="text-maven-white">
                     Globally Rooted: Mavenberg's Base in Nuremberg, Germany.
                     Fortified Team with 30 New Members, Extended Partnerships to
-                    15 Clients.{" "}
+                    15 Clients{" "}
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export default function TimeLine() {
                     Venturing into Mendix
                   </p>
                   <p className="text-maven-white">
-                    As our next phase we are expanding to mendix services.{" "}
+                    As our next phase we are expanding to mendix services{" "}
                   </p>
                 </div>
               </div>

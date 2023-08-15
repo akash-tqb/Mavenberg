@@ -18,7 +18,7 @@ export default function EngineeringServices1() {
           platforms with our CAD Data Conversion services. We unlock the
           potential of your existing designs by converting them into the latest
           formats, ensuring compatibility and future-proofing your engineering
-          processes.
+          processes
         </p>
       </div>
       <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
@@ -28,7 +28,7 @@ export default function EngineeringServices1() {
             Precision Conversion
             </h6>
             <p className=" text-maven-white">
-            Our advanced tools ensure precise conversion, retaining design integrity and minimizing data loss.
+            Our advanced tools ensure precise conversion, retaining design integrity and minimizing data loss
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function EngineeringServices1() {
             Format Flexibility
             </h6>
             <p className=" text-maven-white">
-            Seamlessly convert between various CAD formats, enabling smooth collaboration across teams and systems.
+            Seamlessly convert between various CAD formats, enabling smooth collaboration across teams and systems
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function EngineeringServices1() {
             Efficiency Boost
             </h6>
             <p className=" text-maven-white">
-            Streamline workflows and reduce manual rework with automated conversion processes.
+            Streamline workflows and reduce manual rework with automated conversion processes
             </p>
           </div>
         </div>

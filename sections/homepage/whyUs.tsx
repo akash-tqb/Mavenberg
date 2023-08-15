@@ -113,7 +113,7 @@ export default function WhyUs() {
               </p>
               <p className=" text-maven-white">
                 Individually, we excel in a diverse range of skills, and as a
-                collective, we thrive in mastering a wide array of disciplines.
+                collective, we thrive in mastering a wide array of disciplines
               </p>
             </div>
           </div>
@@ -139,12 +139,10 @@ export default function WhyUs() {
                 Engagement Model
               </h1>
               <p className="text-maven-white">
-                Keeping flexibility in mind and understanding that each
-                requirement from you needs highest form of effective
-                communication.
+              Keeping flexibility in mind and understanding that each requirement from you needs the highest form of effective communication
               </p>
               <p className="text-maven-white">
-                We follow a hybrid engagement model that enables us to:{" "}
+              We follow a hybrid engagement model that enables us to be:{" "}
               </p>
               <div className="flex flex-row gap-2 items-center">
                 <svg
@@ -163,8 +161,8 @@ export default function WhyUs() {
                 </svg>
 
                 <p className="text-maven-white">
-                  Provide best practice in resource management
-                </p>
+                Providing the best practices in resource management
+               </p>
               </div>
               <div className="flex flex-row gap-2 items-center">
                 <svg

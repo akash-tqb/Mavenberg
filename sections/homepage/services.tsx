@@ -15,7 +15,7 @@ export default function Services() {
           Our services streamline the end-to-end management of your product's
           lifecycle, from concept to retirement. We ensure enhanced
           collaboration, data management, and process efficiency, resulting in
-          optimized product development and faster time-to-market.
+          optimized product development and faster time-to-market
         </h3>
       </div>
       <div className="flex flex-col space-y-8 justify-between lg:flex-row lg:space-y-0 lg:space-x-8">
@@ -65,7 +65,7 @@ export default function Services() {
                   </div>
                   <p className="text-maven-white">
                     We elevate PLM's effectiveness through tailored tools and
-                    processes, catering to all product lifecycle aspects.
+                    processes, catering to all product lifecycle aspects
                   </p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export default function Services() {
                   </div>
                   <p className="text-maven-white">
                     We oversee the full product lifecycle, from design to
-                    end-of-life, offering operational efficiency and expertise.
+                    end-of-life, offering operational efficiency and expertise
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                  We implement automation in your engineering to optimize workflows, reduce manual tasks, and boost productivity.
+                  We implement automation in your engineering to optimize workflows, reduce manual tasks, and boost productivity
                   </p>
                 </div>
               </div>
@@ -222,7 +222,7 @@ export default function Services() {
                     </svg>
                   </div>
                   <p className="text-maven-white">
-                  We provide advanced simulation solutions that helps to analyze complex scenarios to facilitate informed decision-making.
+                  We provide advanced simulation solutions that helps to analyze complex scenarios to facilitate informed decision-making
                   </p>
                 </div>
               </div>

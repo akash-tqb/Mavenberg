@@ -10,7 +10,7 @@ export default function CareersPerks() {
         </h1>
       </div>
       <div className="flex items-center justify-center w-full">
-      <div className="grid text-lg font-semibold sm:grid-cols-2 lg:grid-cols-11 gap-8">
+      <div className="grid text-base font-bold text-center sm:grid-cols-2 lg:grid-cols-11 gap-8">
         <div className="border  lg:col-span-3 rounded-full inline-flex items-center justify-center border-maven-white px-8 py-2 text-maven-blue">
         Paid vacation
         </div>
@@ -27,7 +27,7 @@ export default function CareersPerks() {
         On-site opportunities
         </div>
         <div className="border  lg:col-span-3 rounded-full inline-flex items-center justify-center border-maven-white px-8 py-2 text-maven-blue">
-        Tuition Reimbursement 
+        Professional Course Reimbursement 
         </div>
       </div>
       </div>

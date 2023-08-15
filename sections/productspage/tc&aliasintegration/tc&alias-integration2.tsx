@@ -10,7 +10,7 @@ export default function TCAliasIntegration2() {
           <span className=" text-maven-blue">source of truth</span>
         </h1>
         <h3 className="text-maven-white">
-        Incorporate Inventor files with your entire technical dataset, creating a unified repository of product information that fosters your end-to-end design-to-manufacturing workflow.
+        Incorporate Inventor files with your entire technical dataset, creating a unified repository of product information that fosters your end-to-end design-to-manufacturing workflow
         </h3>
       </div>
       <div className="flex flex-col-reverse gap-8 lg:flex-row w-full p-8  lg:p-12 ">
@@ -35,7 +35,7 @@ export default function TCAliasIntegration2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white w-[90%]">Automatically save the entire AutoDesk Alias Wireframe into Teamcenter.</p>
+                <p className="text-maven-white w-[90%]">Automatically save the entire AutoDesk Alias Wireframe into Teamcenter</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -52,7 +52,7 @@ export default function TCAliasIntegration2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white w-[90%]">Open concept design from Teamcenter for viewing, modifying and cloning in AutoDesk Alias.</p>
+                <p className="text-maven-white w-[90%]">Open concept design from Teamcenter for viewing, modifying and cloning in AutoDesk Alias</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -69,7 +69,7 @@ export default function TCAliasIntegration2() {
                     d="M4.5 12.75l6 6 9-13.5"
                   />
                 </svg>
-                <p className="text-maven-white w-[90%]">Simplify search, create and edit AutoDesk Alias objects, including drawings, parts and assemblies.</p>
+                <p className="text-maven-white w-[90%]">Simplify search, create and edit AutoDesk Alias objects, including drawings, parts and assemblies</p>
               </li>
               <li className="flex flex-row gap-4">
                 <svg
@@ -87,7 +87,7 @@ export default function TCAliasIntegration2() {
                   />
                 </svg>
                 <p className="text-maven-white w-[90%]">
-                Readily create and vault Direct Model files for easy digital mockup.
+                Readily create and vault Direct Model files for easy digital mockup
                 </p>
               </li>
             </ul>

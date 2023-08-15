@@ -30,7 +30,7 @@ export default function Dvisualiser3() {
             <p className="text-maven-white/80 text-justify">
               Enables virtual simulation and testing of designs, helping
               identify potential issues and optimize performance before physical
-              implementation.{" "}
+              implementation{" "}
             </p>
           </div>
           <div className=" lg:row-end-[8] lg:row-start-1 lg:col-start-2 gap-2 flex flex-col justify-center  border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -55,7 +55,7 @@ export default function Dvisualiser3() {
             <p className="text-maven-white/80 text-justify">
               Early identification of design flaws and issues through 3D
               visualization helps avoid costly modifications during later stages
-              of a project.{" "}
+              of a project{" "}
             </p>
           </div>
           <div className="lg:row-span-4 lg:col-start-3 gap-2 flex flex-col justify-end border p-4 lg:p-8 rounded-lg border-maven-white">
@@ -79,7 +79,7 @@ export default function Dvisualiser3() {
             </h3>
             <p className="text-maven-white/80 text-justify">
               By visualizing designs before physical implementation, time is
-              saved by minimizing errors, revisions, and rework.
+              saved by minimizing errors, revisions, and rework
             </p>
           </div>
           <div className="lg:col-start-1 lg:row-span-3 p-4 flex flex-col justify-end lg:p-8 space-y-2 rounded-lg border border-maven-white">
@@ -103,7 +103,7 @@ export default function Dvisualiser3() {
             </h3>
             <p className="text-maven-white/80 text-justify">
               Reliably explore multiple design variations, speeding up the
-              iterative design process.{" "}
+              iterative design process{" "}
             </p>
           </div>
 
@@ -129,7 +129,7 @@ export default function Dvisualiser3() {
             <p className="text-maven-white/80 text-justify">
               Promote collaboration between various disciplines, such as design,
               engineering, and marketing, leading to more well-rounded
-              solutions.{" "}
+              solutions{" "}
             </p>
           </div>
         </div>
