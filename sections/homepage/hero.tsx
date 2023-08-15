@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="flex flex-col gap-12 lg:gap-0 justify-between lg:flex-row">
         <div className="lg:w-1/2 flex flex-col gap-12 items-center">
           <h1 className="mb-10 font-sans text-3xl text-center font-bold text-maven-white sm:text-5xl sm:leading-none">
-            Digitize Your Business with
+            Digitize Your Business with{' '}
             <span className="inline-block text-transparent animate-typewriter bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
               Our Disruptive Solutions
             </span>
