@@ -91,7 +91,7 @@ export default function Products() {
               <div className="relative rounded-[15px] bg-maven-bg h-full shadow-inner p-6">
                 <div className="absolute h-4/6 inset-0 bg-no-repeat opacity-40 bg-[url(/panelconfig.svg)] bg-cover [mask-image:linear-gradient(180deg,black,rgba(0,0,0,0))]"></div>
 
-                <div className="space-y-4 transition-all duration-300 xl:translate-y-36 group-hover:xl:translate-y-12">
+                <div className="space-y-4 transition-all duration-300 xl:translate-y-36 group-hover:xl:translate-y-8">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
