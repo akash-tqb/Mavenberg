@@ -31,7 +31,7 @@ export default function PlmAlliedServices2() {
               {" "}
               PLM Implementation{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               We specialize in delivering end-to-end Product Lifecycle
               Management implementation solutions, guiding organizations through
               seamless integration of cutting-edge software, process
@@ -61,7 +61,7 @@ export default function PlmAlliedServices2() {
               {" "}
               Data Migration{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               We understand that every migration issue is unique and different.
               We also understand that you may need assistance in a single step
               or a part of the process. Seamlessly transferring and transforming
@@ -90,7 +90,7 @@ export default function PlmAlliedServices2() {
               {" "}
               Enterprise Integration{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               We possess an in-depth understanding of the essential aspects of
               system-to-system integration, including conflict and failure
               resolution intricacies. Our expertise lies in seamlessly
@@ -122,7 +122,7 @@ export default function PlmAlliedServices2() {
               {" "}
               Teamceter Upgrades{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               Leveraging our proficiency in Teamcenter ,we understand that there
               are specific challenges with each new version of Teamcenter
               upgrades. We make sure you get the full benefit of your investment
@@ -149,7 +149,7 @@ export default function PlmAlliedServices2() {
               {" "}
               ALM Implementation{" "}
             </h3>
-            <p className="text-base text-maven-white">
+            <p className="text-base text-maven-white text-justify">
               Our team is committed in facilitating the implementation of
               Application Lifecycle Management, empowering your organization to
               effectively oversee software development life cycle, automate
