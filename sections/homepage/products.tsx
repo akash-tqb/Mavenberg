@@ -85,7 +85,7 @@ export default function Products() {
           </Link>
         </div>
         <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden">
-          <Link href="/products/panel-configurator">
+          <Link href="/products/verticalized-configurator">
             <div className="group relative mx-auto h-full w-full overflow-hidden rounded-[16px] p-[1px] transition-all duration-300 ease-in-out bg-maven-blue/40 hover:bg-gradient-to-r hover:from-maven-blue via-maven-bg to-maven-blue">
               <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-maven-white/90 to-transparent group-hover:visible"></div>
               <div className="relative rounded-[15px] bg-maven-bg h-full shadow-inner p-6">

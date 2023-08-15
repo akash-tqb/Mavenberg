@@ -25,30 +25,27 @@ export default function PlmManagedServices1() {
             Resource Provisioning
           </h6>
           <p className=" text-maven-white">
-            Efficiently allocate and manage computing, storage, and network
-            resources and their configuration
+          We strategically allocate and optimize computing resources for uninterrupted application performance.  We ensure optimal operation during peak usage, enhancing cost-efficiency and aligning your IT infrastructure seamlessly with evolving business demands
           </p>
           </div>
         </div>
         <div className="duration-300 transform border-maven-blue border border-l-4  shadow-sm hover:-translate-y-2">
           <div className="h-full p-5 border border-l-0 border-maven-blue rounded-r shadow-sm">
           <h6 className="mb-2 font-semibold leading-5 text-maven-blue">
-            Auto-Scaling
+          24/7 Hardware Support
           </h6>
           <p className=" text-maven-white">
-            Dynamically adjust resources based on traffic and demand
-            fluctuations with real-time alerts
+          Our 24/7 Hardware Support offers continuous technical assistance for your physical hardware infrastructure. Our skilled technicians are available around the clock to address hardware issues promptly
           </p>
           </div>
         </div>
         <div className="duration-300 transform border-maven-blue border border-l-4  shadow-sm hover:-translate-y-2">
           <div className="h-full p-5 border border-l-0 border-maven-blue rounded-r shadow-sm">
           <h6 className="mb-2 font-semibold leading-5 text-maven-blue">
-            Security
+          8/5 L2 Support
           </h6>
           <p className=" text-maven-white">
-            Implement security measures, access controls, and encryption
-            protocols
+          Our skilled Level 2 engineers offer comprehensive technical assistance during business hours. This goes beyond basic troubleshooting and covers complex tasks like software configurations, application integrations, and performance optimization. We collaborate closely with your team to promptly enhance IT stability and reliability
           </p>
           </div>
         </div>
@@ -66,21 +63,19 @@ export default function PlmManagedServices1() {
         <div className="duration-300 transform border-maven-blue border border-l-4  shadow-sm hover:-translate-y-2">
           <div className="h-full p-5 border border-l-0 border-maven-blue rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold leading-5 text-maven-blue">
-              Application Deployment
+            License Tracking
             </h6>
             <p className=" text-maven-white">
-              Deploy and manage applications, containers, and microservices
-            </p>
+            We guarantee compliant and cost-effective software usage. Our meticulous license management includes tracking usage, renewals, and updates, helping you avoid financial risks. By optimizing licenses, we guide informed software procurement and cost savings            </p>
           </div>
         </div>
         <div className="duration-300 transform border-maven-blue border border-l-4  shadow-sm hover:-translate-y-2">
           <div className="h-full p-5 border border-l-0 border-maven-blue rounded-r shadow-sm">
             <h6 className="mb-2 font-semibold leading-5 text-maven-blue">
-              Migration Assistance
+            Application Incident Support
             </h6>
             <p className=" text-maven-white">
-              Plan and execute the migration of applications and data to the
-              cloud
+            We ensure your software applications' health and functionality. Our specialized team promptly diagnoses, analyzes, and resolves incidents. Collaborating with your developers, we identify root causes to swiftly restore normal operation and minimize disruptions
             </p>
           </div>
         </div>

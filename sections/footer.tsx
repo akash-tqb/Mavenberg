@@ -120,10 +120,10 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/products/panel-configurator"
+                    href="/products/verticalized-configurator"
                     className="text-maven-white transition-colors duration-300 "
                   >
-                    Panel Configurator
+                    Verticalized Configurator
                   </Link>
                 </li>
                 <li>

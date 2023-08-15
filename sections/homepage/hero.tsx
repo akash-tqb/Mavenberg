@@ -1,7 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function Hero() {
+    const [showAmazing, setShowAmazing] = useState(false);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setShowAmazing(prevShowAmazing => !prevShowAmazing);
+      }, 2500); // Change text every 5 seconds
+  
+      return () => {
+        clearInterval(interval);
+      };
+    }, []);
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="flex justify-center lg:hidden z-0 mb-6">
@@ -27,10 +39,13 @@ export default function Hero() {
                       </div>
       <div className="flex flex-col gap-12 lg:gap-0 justify-between lg:flex-row">
         <div className="lg:w-1/2 flex flex-col gap-12 items-center">
-          <h1 className="mb-10 font-sans text-3xl text-center font-bold text-maven-white sm:text-5xl sm:leading-none">
-            Digitize Your Business with{' '}
-            <span className="inline-block text-transparent animate-typewriter bg-clip-text bg-gradient-to-r from-maven-blue to-maven-orange">
-              Our Disruptive Solutions
+          <h1 className="mb-10 font-sans text-3xl text-center font-bold text-maven-white sm:text-4xl sm:leading-none">
+            Digitize Your Business with Our{' '}
+            <span
+          className={`inline-block bg-clip-text ${
+            showAmazing ? 'bg-gradient-to-r from-maven-blue to-maven-orange -translate-y-1' : 'bg-gradient-to-r from-maven-orange to-maven-blue'
+          } text-transparent transition-all duration-100`}
+        >            {showAmazing ? 'Disruptive Solutions' : 'Transformative Innovations'}
             </span>
           </h1>
           <div className="h-96 w-96 hidden lg:block">

@@ -123,7 +123,8 @@ export default function PanelConfigurator2() {
           </div>
         </div>
         <div className="lg:w-1/2  flex-col items-center justify-center hidden sm:mt-20 sm:mb-24 lg:my-0 sm:flex">
-          <div className="relative ">
+          <Image src='/panelconfig.svg' width={400} height={400} alt=""/>
+          {/* <div className="relative ">
             <div className="flex items-center justify-center rounded-full h-48 w-48 bg-gradient-radial from-maven-blue to-maven-bg">
               <div className="inline-flex items-center justify-center h-36 w-36 rounded-full bg-maven-bg border-2 border-maven-blue">
                 <svg
@@ -143,7 +144,7 @@ export default function PanelConfigurator2() {
               </div>
             </div>
 
-            {/* <div className="h-20 w-20 rounded-full border border-maven-blue text-maven-orange absolute top-[-60%] left-[25%] flex items-center justify-center">
+            <div className="h-20 w-20 rounded-full border border-maven-blue text-maven-orange absolute top-[-60%] left-[25%] flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -210,8 +211,8 @@ export default function PanelConfigurator2() {
                   d="M6 6.878V6a2.25 2.25 0 012.25-2.25h7.5A2.25 2.25 0 0118 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 004.5 9v.878m13.5-3A2.25 2.25 0 0119.5 9v.878m0 0a2.246 2.246 0 00-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0121 12v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6c0-.98.626-1.813 1.5-2.122"
                 />
               </svg>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </div>

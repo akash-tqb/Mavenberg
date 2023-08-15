@@ -6,14 +6,13 @@ export default function MavenDx3() {
           <h2 className="pb-2 mb-4 text-2xl md:text-4xl font-bold text-maven-white">
             Streamlined Data Extraction and Integration with{" "}
             <span className="text-maven-blue">
-            Customizable
-            Retrieval, and Proactive Error Handling
+              Customizable Retrieval, and Proactive Error Handling
             </span>
           </h2>
           <p className="text-maven-white mb-2">
             Propel your data journey with customizable extraction, secure
             storage, and proactive error handling, while seamlessly connecting
-            Teamcenter to your platforms for automated, real-time insights,
+            enterprise applications for automated, real-time insights,
             transforming efficiency and innovation
           </p>
           <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">
