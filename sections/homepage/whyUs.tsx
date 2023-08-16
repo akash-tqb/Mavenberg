@@ -35,7 +35,7 @@ export default function WhyUs() {
                 />
               </svg>
 
-              <p className="text-maven-white">
+              <p className="text-maven-white w-11/12">
                 {" "}
                 We aim to elevate beyond the role of a mere vendor and transform
                 into valued partners
@@ -57,7 +57,7 @@ export default function WhyUs() {
                 />
               </svg>
 
-              <p className="text-maven-white">
+              <p className="text-maven-white w-11/12">
                 We strive for active engagement rather than passive contribution
               </p>
             </div>
@@ -77,7 +77,7 @@ export default function WhyUs() {
                 />
               </svg>
 
-              <p className="text-maven-white">
+              <p className="text-maven-white w-11/12">
                 We emphasize collaborative participation as partners
               </p>
             </div>
@@ -158,7 +158,7 @@ export default function WhyUs() {
                   />
                 </svg>
 
-                <p className="text-maven-white">
+                <p className="text-maven-white w-11/12">
                 Providing the best practices in resource management
                </p>
               </div>
@@ -178,7 +178,7 @@ export default function WhyUs() {
                   />
                 </svg>
 
-                <p className="text-maven-white">Cost effective</p>
+                <p className="text-maven-white w-11/12">Cost effective</p>
               </div>
               <div className="flex flex-row gap-2 items-center">
                 <svg
@@ -196,7 +196,7 @@ export default function WhyUs() {
                   />
                 </svg>
 
-                <p className="text-maven-white">Flexibile</p>
+                <p className="text-maven-white w-11/12">Flexibile</p>
               </div>
             </div>
           </div>
