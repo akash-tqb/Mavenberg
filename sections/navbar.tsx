@@ -16,6 +16,7 @@ export default function Navbar() {
             <p className="text-lg font-extrabold tracking-wider text-maven-white">
               <span className="inline-block text-maven-blue">Mavenberg{' '}</span>{' '}Innovations
             </p>
+            <p className="text-xs text-maven-orange tracking-widest text-center mt-1">Connecting the Dots</p>
             {/* <Image
               src="/independenceday.svg"
               width={200}
