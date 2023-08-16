@@ -13,11 +13,10 @@ export default function Navbar() {
         <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16 lg:py-4 ">
           <div className="absolute left-0 hidden lg:flex">
             <div className="relative">
-            <p className="text-lg tracking-wider text-maven-orange">
-              Happy <span className="text-maven-white">Independence</span>{" "}
-              <span className="text-[#22c55e]">Day</span>
+            <p className="text-lg font-extrabold tracking-wider text-maven-white">
+              <span className="inline-block text-maven-blue">Mavenberg{' '}</span>{' '}Innovations
             </p>
-            <Image
+            {/* <Image
               src="/independenceday.svg"
               width={200}
               height={100}
@@ -29,7 +28,7 @@ export default function Navbar() {
             width={128}
             height={88}
             className="absolute h-10 w-14 right-[-25%] -rotate-6 top-[-60%] opacity-60"
-            alt="nav-flag"/>
+            alt="nav-flag"/> */}
             </div>
                       </div>
           <ul className="items-center hidden space-x-12 lg:flex">
