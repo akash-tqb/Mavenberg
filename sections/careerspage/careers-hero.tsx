@@ -10,7 +10,7 @@ export default function CarrersHero() {
               <span className=" text-maven-blue ">Join us!</span>
             </h1>
             <h3 className="text-maven-white max-w-2xl">
-            Join us and be at the forefront of digital transformation while being part of team that values personal growth and collaboration. We are an ambitious bunch building one of a kind products for clients from varied industries and backgrounds
+            Join us and be at the forefront of digital transformation while being part of the team that values personal growth and collaboration. We are an ambitious bunch building one of a kind products for clients from varied industries and backgrounds
             </h3>
           </div>
         </div>

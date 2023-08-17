@@ -12,26 +12,15 @@ export default function Navbar() {
       <div className="px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16 lg:py-4 ">
           <div className="absolute left-0 hidden lg:flex">
-            <div className="relative">
-            <p className="text-lg font-extrabold tracking-wider text-maven-white">
-              <span className="inline-block text-maven-blue">Mavenberg{' '}</span>{' '}Innovations
-            </p>
-            <p className="text-xs text-maven-orange tracking-widest text-center mt-1">Connecting the Dots</p>
-            {/* <Image
-              src="/independenceday.svg"
+
+            <Image
+              src="/logoname.png"
               width={200}
               height={100}
-              className="absolute top-[-80%] opacity-50"
+              className="h-14 w-40"
               alt="navimage"
             />
-            <Image
-            src="/flag.gif"
-            width={128}
-            height={88}
-            className="absolute h-10 w-14 right-[-25%] -rotate-6 top-[-60%] opacity-60"
-            alt="nav-flag"/> */}
             </div>
-                      </div>
           <ul className="items-center hidden space-x-12 lg:flex">
             <li>
               <Link

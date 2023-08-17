@@ -37,7 +37,7 @@ export default function TimeLine() {
                     Company Incorporated
                   </p>
                   <p className="text-maven-white">
-                    Mavenberg Innovations India Pvt. Ltd., was Established in
+                    Mavenberg Innovations India Pvt. Ltd., was established in
                     the month of March in Bangalore. As our first phase we
                     developed a 3D visualizer as an IOT platform plug - in
                   </p>
