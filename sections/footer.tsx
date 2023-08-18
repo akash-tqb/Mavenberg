@@ -185,7 +185,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/services/engineering-services"
+                    href="/services/simulation-services"
                     className="text-maven-white transition-colors duration-300 "
                   >
                     Simulation Services
