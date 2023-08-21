@@ -10,7 +10,7 @@ export default function careers() {
     <Head>
       <link rel="shortcut icon" href="/favicon.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Careers| Join Our Dynamic Team</title>
+      <title>Careers | Join Our Dynamic Team</title>
       <meta name="description" content="Be at the forfront of digital transformation and help build one of a kind products. Join us!" />
     </Head>
       <CarrersHero />
