@@ -23,7 +23,7 @@ export default function WhyUs() {
             <h1 className="text-lg font-medium text-maven-orange capitalize">
               Your needs take precedence over ours
             </h1>
-            <div className="flex flex-col gap-4 ml-12">
+            <div className="flex flex-col gap-4 md:ml-12">
             <div className="flex flex-row gap-2 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
