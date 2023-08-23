@@ -1,13 +1,18 @@
-import Link from "next/link";
-import { useState } from "react";
+import Link from "next/link"
+import "aos/dist/aos.css";
+import AOS from 'aos'
+import { useEffect } from "react";
 
 export default function Products() {
+  useEffect(() => {
+    AOS.init({ duration: 500 });
+  }, []);
   return (
     <div
       id="products"
       className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20"
     >
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between" data-aos="fade-down">
         <div className="flex flex-col mb-12">
           <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
             Our <span className=" text-maven-blue">Products</span>
@@ -19,7 +24,7 @@ export default function Products() {
         </div>
       </div>
       <div className="grid lg:grid-cols-3 lg:grid-rows-2 gap-8">
-        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden lg:col-span-2">
+        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden lg:col-span-2" data-aos='zoom-in-up' data-aos-easing='ease-in'>
           <Link href="/products/mavendx">
             <div className="group relative mx-auto h-full w-full overflow-hidden rounded-[16px] p-[1px] transition-all duration-300 ease-in-out bg-maven-orange/40 hover:bg-gradient-to-r hover:from-maven-orange via-maven-bg to-maven-orange">
               <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 lg:right-20 lg:left-20 lg:-top-80 lg:-bottom-80 bg-gradient-to-r from-transparent via-maven-white/90 to-transparent group-hover:visible"></div>
@@ -84,7 +89,7 @@ export default function Products() {
             </div>
           </Link>
         </div>
-        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden">
+        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden" data-aos='zoom-in-up' data-aos-easing="ease-in">
           <Link href="/products/verticalized-configurator">
             <div className="group relative mx-auto h-full w-full overflow-hidden rounded-[16px] p-[1px] transition-all duration-300 ease-in-out bg-maven-blue/40 hover:bg-gradient-to-r hover:from-maven-blue via-maven-bg to-maven-blue">
               <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-maven-white/90 to-transparent group-hover:visible"></div>
@@ -139,7 +144,7 @@ export default function Products() {
             </div>
           </Link>
         </div>
-        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden">
+        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden"  data-aos='zoom-in-up' data-aos-easing="ease-in">
           <Link href="/products/license-insights">
             <div className="group relative mx-auto h-full w-full overflow-hidden rounded-[16px] p-[1px] transition-all duration-300 ease-in-out bg-maven-blue/40 hover:bg-gradient-to-r hover:from-maven-blue via-maven-bg to-maven-blue">
               <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-maven-white/90 to-transparent group-hover:visible"></div>
@@ -193,7 +198,7 @@ export default function Products() {
             </div>
           </Link>
         </div>
-        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden">
+        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden" data-aos='zoom-in-up' data-aos-easing="ease-in">
           <Link href="/products/tc&alias-integration">
             <div className="group relative mx-auto h-full w-full overflow-hidden rounded-[16px] p-[1px] transition-all duration-300 ease-in-out bg-maven-blue/40 hover:bg-gradient-to-r hover:from-maven-blue via-maven-bg to-maven-blue">
               <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-maven-white/90 to-transparent group-hover:visible"></div>
@@ -249,7 +254,7 @@ export default function Products() {
             </div>
           </Link>
         </div>
-        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden">
+        <div className="xl:h-80 xl:block flex flex-col xl:overflow-hidden"  data-aos='zoom-in-up' data-aos-easing="ease-in">
           <Link href="/products/3d-visualiser">
             <div className="group relative mx-auto h-full w-full overflow-hidden rounded-[16px] p-[1px] transition-all duration-300 ease-in-out bg-maven-blue/40 hover:bg-gradient-to-r hover:from-maven-blue via-maven-bg to-maven-blue">
               <div className="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-maven-white/90 to-transparent group-hover:visible"></div>

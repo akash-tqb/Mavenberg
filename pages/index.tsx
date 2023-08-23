@@ -14,7 +14,7 @@ export default function Home() {
       <title>Mavenberg Innovations | Digitalize your buisness with our IT solutions</title>
       <meta name="description" content="Weave your digital DNA with our transformative solutions. Digitize your operations, streamline processes, and unlock growth opportunities with cutting-edge technology. Discover how our expertise can drive your digital success." />
     </Head>
-    <main className="bg-maven-bg">
+    <main className="bg-maven-bg overflow-hidden">
         <Hero />
         <Products />
         <Services />

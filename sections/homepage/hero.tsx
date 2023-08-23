@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import AOS from 'aos'
+import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
 export default function Hero() {
   const [showAmazing, setShowAmazing] = useState(false);
 
   useEffect(() => {
+    AOS.init({ duration: 500 });
     const interval = setInterval(() => {
       setShowAmazing((prevShowAmazing) => !prevShowAmazing);
     }, 2500); // Change text every 5 seconds
@@ -55,7 +58,7 @@ export default function Hero() {
                 : "Transformative Innovations"}
             </span>
           </h1>
-          <div className="h-96 w-96 hidden lg:block">
+          <div className="h-96 w-96 hidden lg:block"  data-aos='fade-up' data-aos-easing='ease-in'>
             <Image
               src="/heroImage.svg"
               alt="heroImage"
@@ -119,7 +122,7 @@ export default function Hero() {
                 <div className="rounded-full border-4 flex items-center justify-center w-10 h-10 border-maven-orange"></div>
                 <div className="h-8 w-[2px] bg-maven-white"></div>
               </div>
-              <div className="flex flex-col col-span-3 space-y-4">
+              <div className="flex flex-col col-span-3 space-y-4" >
                 <h1 className="text-maven-orange md:text-xl text-lg tracking-wide font-bold">
                   Data Migration
                 </h1>
@@ -150,7 +153,7 @@ export default function Hero() {
                 <div className="rounded-full border-4 flex items-center justify-center w-10 h-10 border-maven-orange"></div>
                 <div className="h-8 w-[2px] bg-maven-white"></div>
               </div>
-              <div className="flex flex-col col-span-3 space-y-4">
+              <div className="flex flex-col col-span-3 space-y-4" >
                 <h1 className="text-maven-orange md:text-xl text-lg tracking-wide font-bold">
                   PLM Managed Services
                 </h1>
@@ -181,7 +184,7 @@ export default function Hero() {
               <div className="flex flex-col col-span-1 items-center">
                 <div className="rounded-full border-4 flex justify-center w-10 h-10 border-maven-orange"></div>
               </div>
-              <div className="flex flex-col col-span-3 space-y-4">
+              <div className="flex flex-col col-span-3 space-y-4" >
                 <h1 className="text-maven-orange md:text-xl text-lg tracking-wide font-bold">
                   Simulation Services
                 </h1>

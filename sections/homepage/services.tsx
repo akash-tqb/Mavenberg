@@ -1,13 +1,19 @@
-import Image from "next/image";
+
 import Link from "next/link";
+import "aos/dist/aos.css";
+import AOS from 'aos'
+import { useEffect } from "react";
 
 export default function Services() {
+  useEffect(() => {
+    AOS.init({ duration: 500 });
+  }, []);
   return (
     <div
       id="services"
       className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
     >
-      <div className="mb-12">
+      <div className="mb-12"  data-aos='fade-down' data-aos-easing='ease-in'>
         <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white text-justify">
           Our <span className=" text-maven-blue">Services</span>
         </h1>
@@ -20,7 +26,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col space-y-8 justify-between lg:flex-row lg:space-y-0 lg:space-x-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
-          <Link href="/services/plm&allied-services">
+          <Link href="/services/plm&allied-services" data-aos='slide-right' data-aos-easing='ease-in'>
             <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-blue group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-blue group-hover:scale-y-100" />
@@ -71,7 +77,7 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <Link href="/services/plm-managed-services">
+          <Link href="/services/plm-managed-services" data-aos='zoom-in' data-aos-easing='ease-in'>
             <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />
@@ -122,7 +128,7 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <Link href="/services/engineering-services">
+          <Link href="/services/engineering-services" data-aos='zoom-in' data-aos-easing='ease-in'>
             <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-blue group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-blue group-hover:scale-y-100" />
@@ -178,7 +184,7 @@ export default function Services() {
               </div>
             </div>
           </Link>
-          <Link href="/services/simulation-services">
+          <Link href="/services/simulation-services" data-aos='slide-left' data-aos-easing='ease-in'>
             <div className="relative h-full p-px overflow-hidden transition duration-300 transform border border-maven-white/20 rounded hover:scale-105 group">
               <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-maven-orange group-hover:scale-x-100" />
               <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-maven-orange group-hover:scale-y-100" />

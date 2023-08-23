@@ -1,9 +1,14 @@
 import Image from "next/image";
-
+import "aos/dist/aos.css";
+import AOS from 'aos'
+import { useEffect } from "react";
 export default function WhyUs() {
+  useEffect(() => {
+    AOS.init({ duration: 500 });
+  }, []);
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="mb-6">
+      <div className="mb-6" data-aos='fade-down' data-aos-easing='ease-in'>
         <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
           Why <span className=" text-maven-blue">Us?</span>
         </h1>
@@ -14,7 +19,7 @@ export default function WhyUs() {
       </div>
       <div className="flex justify-between flex-row space-y-0">
         <div className="flex flex-col space-y-8 p-4 lg:p-8 lg:w-3/4">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4" data-aos='fade-up' data-aos-easing='ease-in'>
             <h1 className="text-lg font-medium text-maven-orange capitalize">
               Your needs take precedence over ours
             </h1>
@@ -83,7 +88,7 @@ export default function WhyUs() {
             </div>
             </div>
           </div>
-          <div className=" flex flex-col md:flex-row gap-4">
+          <div className=" flex flex-col md:flex-row gap-4"  data-aos='fade-up' data-aos-easing='ease-in'>
             <div className="w-10 h-10 rounded-md p-2 bg-maven-blue flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +122,7 @@ export default function WhyUs() {
               </p>
             </div>
           </div>
-          <div className=" flex flex-col md:flex-row gap-4">
+          <div className=" flex flex-col md:flex-row gap-4"  data-aos='fade-up' data-aos-easing='ease-in'>
             <div className="w-10 h-10 rounded-md p-2 bg-maven-blue flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +205,7 @@ export default function WhyUs() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col md:flex-row gap-4">
+          <div className=" flex flex-col md:flex-row gap-4"  data-aos='fade-up' data-aos-easing='ease-in'>
             <div className="w-10 h-10 rounded-md p-2 bg-maven-blue flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -314,6 +319,7 @@ export default function WhyUs() {
             width={400}
             height={400}
             alt="design circle"
+            data-aos='fade-down' data-aos-easing='ease-in'
           />
         </div>
       </div>
