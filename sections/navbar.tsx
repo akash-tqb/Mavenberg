@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<Boolean>(false);
 
   return (
-    <div className="lg:bg-[url(/moon.png)] lg:bg-no-repeat lg:bg-cover lg:bg-center lg:bg-blend-multiply bg-maven-bg/80 lg:sticky lg-nav-shadow lg:z-50 lg:top-0">
+    <div className="lg:bg-[url(/moon.png)] lg:bg-no-repeat lg:bg-cover lg:bg-center lg:bg-blend-multiply lg:bg-maven-bg/80 bg-maven-bg lg:sticky lg-nav-shadow lg:z-50 lg:top-0">
       <div className="px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16 lg:py-4 ">
           <div className="absolute left-0 hidden lg:flex">
