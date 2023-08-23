@@ -112,7 +112,7 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link
-                    href="/"
+                    href="/products/mavendx"
                     className="text-maven-white transition-colors duration-300 "
                   >
                     MavenDX
