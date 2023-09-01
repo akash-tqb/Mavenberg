@@ -19,21 +19,6 @@ export default function Hero() {
   }, []);
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      {/* <div className="flex justify-center lg:hidden z-0 mb-6">
-      <div className="relative">
-          <p className="text-lg tracking-wider text-maven-orange uppercase">
-            Chan<span className="text-maven-white">dra</span>
-            <span className="text-[#22c55e]">yaan 3</span>
-          </p>
-          <Image
-            src="/rocket.svg"
-            width={50}
-            height={100}
-            className="absolute -left-9 -top-8 h-24 w-14"
-            alt="navimage"
-          />
-        </div>
-      </div> */}
       <div className="flex flex-col gap-12 lg:gap-0 justify-between lg:flex-row">
         <div className="lg:w-1/2 flex flex-col gap-12 items-center">
           <h1 className="mb-10 font-sans text-xl text-center font-bold text-maven-white sm:text-4xl leading-8">
