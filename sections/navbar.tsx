@@ -8,25 +8,18 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<Boolean>(false);
 
   return (
-    <div className="bg-[url(/moon.png)] bg-no-repeat bg-cover bg-center bg-blend-multiply bg-maven-bg/80 lg:sticky lg-nav-shadow lg:z-50 lg:top-0">
+    <div className="bg-maven-bg lg:sticky lg-nav-shadow lg:z-50 lg:top-0">
       <div className="px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16 lg:py-4 ">
           <div className="absolute left-0 hidden lg:flex">
-          <div className="relative">
-          <p className="text-lg tracking-wider text-maven-orange uppercase">
-            Chan<span className="text-maven-white">dra</span>
-            <span className="text-[#22c55e]">yaan 3</span>
-          </p>
           <Image
-            src="/rocket.svg"
-            width={50}
-            height={100}
-            className="absolute -left-9 -top-8 h-24 w-14"
+            src="/logoname.png"
+            width={200}
+            height={140}
+            className="h-14 w-40"
             alt="navimage"
           />
         </div>
-
-            </div>
           <ul className="items-center hidden space-x-12 lg:flex">
             <li>
               <Link
