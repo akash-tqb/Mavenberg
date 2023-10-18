@@ -36,12 +36,13 @@ export default function Footer() {
                 </p> */}
             </div>
           </div>
-          <Link
-            href="https://goo.gl/maps/wVDifbMbenai2cBP6"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
+          
             className="flex flex-col lg:justify-center gap-4 lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400"
           >
+            <Link  href="https://goo.gl/maps/wVDifbMbenai2cBP6"
+            target="_blank"
+            rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -68,7 +69,31 @@ export default function Footer() {
                 Nagar, Yelahanka, Bengaluru, Karnataka, India-560064
               </p>
             </div>
-          </Link>
+            </Link>
+            <Link
+                href="tel:+918951996331"
+                className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+
+                <p className="text-maven-white font-medium leading-6 transition-colors duration-300 ">
+                  +91-89519 96331
+                </p>
+              </Link>
+          </div>
           <div
            
             className="flex flex-col gap-4 lg:justify-center lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400"
@@ -101,6 +126,29 @@ export default function Footer() {
                 90429 Nürnberg, Germany.
               </p>
             </div>
+            <Link
+                href="tel:+4917631585392"
+                className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+
+                <p className="text-maven-white font-medium leading-6 transition-colors duration-300 ">
+                +49 176 31585392
+                </p>
+              </Link>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-8 lg:grid-cols-4 mb-8">
@@ -244,29 +292,6 @@ export default function Footer() {
                 </svg>
                 <p className="text-maven-white transition-colors duration-300 ">
                   info@mavenberg.com
-                </p>
-              </Link>
-              <Link
-                href="tel:+918951996331"
-                className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                  />
-                </svg>
-
-                <p className="text-maven-white transition-colors duration-300 ">
-                  +91-89519 96331
                 </p>
               </Link>
               <div>
