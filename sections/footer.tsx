@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="bg-maven-bg nav-shadow" id="footer">
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid grid-cols-1 gap-5 lg:gap-8 mb-8 lg:grid-cols-7">
-          <div className="md:max-w-md lg:col-span-3">
+          <div className="lg:col-span-7">
             <a
               href="/"
               aria-label="Go home"
@@ -22,13 +22,13 @@ export default function Footer() {
                 />
               </div>
             </a>
-            <div className="mt-4 lg:max-w-md">
+            <div className="mt-4 lg:w-full">
               <p className="text-maven-white text-justify">
                 Mavenberg Innovations is a digital transformation company that
                 takes end to end responsibility of your digital investment
                 outcomes and transforms your business by offering products and
                 services focused on managing the digital thread across your
-                product's life cycle
+                product's life cycle.
               </p>
               {/* <p className="mt-4 text-sm text-maven-white">
                   Eaque ipsa quae ab illo inventore veritatis et quasi
@@ -36,68 +36,69 @@ export default function Footer() {
                 </p> */}
             </div>
           </div>
-          <div
-          
-            className="flex flex-col lg:justify-center gap-4 lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400"
-          >
-            <Link  href="https://goo.gl/maps/wVDifbMbenai2cBP6"
-            target="_blank"
-            rel="noopener noreferrer">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-6 h-6"
+        </div>
+        <div className="grid grid-cols-1 gap-5 lg:gap-8 mb-8 lg:grid-cols-6 lg:px-4">
+          <div className="flex flex-col lg:justify-center gap-4 lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400">
+            <Link
+              href="https://goo.gl/maps/wVDifbMbenai2cBP6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col gap-4"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-              />
-            </svg>
-            <div className="flex flex-col gap-2 w-11/12">
-              <h1 className="text-maven-orange font-semibold">India Office</h1>
-              <p className="text-maven-white transition-colors duration-300">
-                7th Floor, Ncc Urban - Windsor, No: 17/1, Bellary Rd, Yashoda
-                Nagar, Yelahanka, Bengaluru, Karnataka, India-560064
-              </p>
-            </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+              <div className="flex flex-col gap-2 w-11/12">
+                <h1 className="text-maven-orange font-semibold">
+                  India Office
+                </h1>
+                <p className="text-maven-white transition-colors duration-300">
+                  7th Floor, Ncc Urban - Windsor, No: 17/1, Bellary Rd, Yashoda
+                  Nagar, Yelahanka, Bengaluru, Karnataka, India-560064
+                </p>
+              </div>
             </Link>
             <Link
-                href="tel:+918951996331"
-                className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
+              href="tel:+918951996331"
+              className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                  />
-                </svg>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
 
-                <p className="text-maven-white font-medium leading-6 transition-colors duration-300 ">
-                  +91-89519 96331
-                </p>
-              </Link>
+              <p className="text-maven-white font-medium leading-6 transition-colors duration-300 ">
+                +91-89519 96331
+              </p>
+            </Link>
           </div>
-          <div
-           
-            className="flex flex-col gap-4 lg:justify-center lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400"
-          >
+          <div className="flex flex-col gap-4 lg:justify-center lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -122,33 +123,92 @@ export default function Footer() {
                 Germany Office
               </h1>
               <p className="text-maven-white transition-colors duration-300">
-                Mavenberg Innovations GmbH,<br/>Fürtherstraße 27,<br />
+                Mavenberg Innovations GmbH,
+                <br />
+                Fürtherstraße 27,
+                <br />
                 90429 Nürnberg, Germany.
               </p>
             </div>
             <Link
-                href="tel:+4917631585392"
-                className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
+              href="tel:+4917631585392"
+              className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                  />
-                </svg>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
 
-                <p className="text-maven-white font-medium leading-6 transition-colors duration-300 ">
+              <p className="text-maven-white font-medium leading-6 transition-colors duration-300 ">
                 +49 176 31585392
-                </p>
-              </Link>
+              </p>
+            </Link>
+          </div>
+          <div className="flex flex-col gap-4 lg:col-span-2 text-maven-orange transition-colors duration-300 hover:text-teal-accent-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+              />
+            </svg>
+            <div className="flex flex-col gap-2 w-11/12">
+              <h1 className="text-maven-orange font-semibold">
+                USA Office
+              </h1>
+              <p className="text-maven-white transition-colors duration-300">
+                Mavenberg Innovations Inc.,
+                <br />
+                455 E Eisenhower PKWY STE 300 Ann Arbor,
+                <br />
+                MI 48108.
+              </p>
+            </div>
+            {/* <Link
+              href="tel:+4917631585392"
+              className="flex flex-row space-x-4 text-maven-blue transition-colors duration-300 hover:text-teal-accent-400"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+
+              <p className="text-maven-white font-medium leading-6 transition-colors duration-300 ">
+                +49 176 31585392
+              </p>
+            </Link> */}
           </div>
         </div>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-8 lg:grid-cols-4 mb-8">
