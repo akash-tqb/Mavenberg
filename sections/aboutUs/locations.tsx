@@ -11,7 +11,7 @@ export default function Location() {
       <div className="w-full">
         <div className="relative">
           <Image
-            src="/mapworldfull.png"
+            src="/mapworldfull-usa.png"
             width={1280}
             height={640}
             alt="world map image"
@@ -38,6 +38,17 @@ export default function Location() {
               Yelahanka, Bengaluru, Karnataka,
               <br />
               India-560064
+            </p>
+          </div>
+          <div className="rounded-lg p-2 w-72 bg-maven-white absolute z-20 top-[25%]  -left-[1%]">
+            <p className="text-xs xl:text-sm xl:leading-5">
+              <span className="font-bold">
+                Mavenberg Innovations Inc.,
+              </span>
+              <br />
+              455 E Eisenhower PKWY STE 300 Ann Arbor,
+              <br />
+              MI 48108.
             </p>
           </div>
         </div>
