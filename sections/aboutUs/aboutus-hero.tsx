@@ -29,7 +29,7 @@ export default function AboutUsHero() {
           />
             <p className="text-lg font-bold text-maven-blue mb-4">From CEO's Desk</p>
             <p className="mb-4 tracking-wide italic text-maven-white">
-           "When you view customers' goals as your own, your efforts become effortless. The idea of Mavenberg is to nurture such a culture"
+           "When you view customers' goals as your own, your efforts become effortless. The idea of Mavenberg is to nurture such a culture."
             </p>
             <p className="text-maven-orange flex justify-end">-Rajaram Sellamuthu</p>
           </div>
