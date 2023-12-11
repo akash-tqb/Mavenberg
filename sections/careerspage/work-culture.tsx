@@ -44,7 +44,7 @@ export default function WorkCulture() {
             </div>
             <div className="pt-2 text-maven-white">
               You do not hesitate to try that one idea/approach that crosses
-              your mind when that one bug is bugging you day in day out
+              your mind when that one bug is bugging you day in day out.
             </div>
           </div>
           <div>
@@ -71,7 +71,7 @@ export default function WorkCulture() {
             </div>
             <div className="pt-2 text-maven-white">
               You love taking time to sink your teeth into new technology and
-              tools and believe in constant improvement of one’s skill set
+              tools and believe in constant improvement of one’s skill set.
             </div>
           </div>
 
@@ -100,7 +100,7 @@ export default function WorkCulture() {
             <div className="pt-2 text-maven-white">
               You love sharing your learnings with your peers and initiate
               discussions and solutions irrespective of how well verse you are
-              with the subject
+              with the subject.
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ export default function Values() {
                    Vision
                   </h3>
                   <p>
-                  To be a reliable digitization partner to our customers by 2025
+                  To be a reliable digitization partner to our customers by 2025.
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function Values() {
                     Mission
                   </h3>
                   <p>
-                  Partner with startups, established OEMs, systems integrators and enable our customers to achieve their digitalization targets
+                  Partner with startups, established OEMs, systems integrators and enable our customers to achieve their digitalization targets.
                   </p>
                 </div>
               </div>
@@ -100,11 +100,11 @@ export default function Values() {
                   <ul className="grid md:grid-cols-2  md:grid-rows-2 text-justify">
                     <li className="flex flex-col gap-2 md:border-r md:border-maven-white p-4">
                     <h1 className="text-base font-semibold text-maven-blue">Trustworthy</h1>
-                    <p className="text-sm">Open communication builds trust, which is our foundation for any relationship whether it’s with our employees or our clients. We are here to talk the walk</p>
+                    <p className="text-sm">Open communication builds trust, which is our foundation for any relationship whether it’s with our employees or our clients. We are here to talk the walk.</p>
                     </li>
                     <li className="flex flex-col gap-2 p-4 ">
                     <h1 className="text-base font-semibold text-maven-blue">Innovation</h1>
-                    <p className="text-sm">We develop and apply innovation as an opportunity to listen, learn and seek out the best ideas and bolster curiosity without any constrains</p>
+                    <p className="text-sm">We develop and apply innovation as an opportunity to listen, learn and seek out the best ideas and bolster curiosity without any constrains.</p>
                     </li>
                     <li className="flex flex-col gap-2 md:border-r md:border-t md:border-maven-white  p-4">
                     <h1 className="text-base font-semibold text-maven-blue">Responsive</h1>
@@ -112,7 +112,7 @@ export default function Values() {
                     </li>
                     <li className="flex flex-col gap-2 md:border-t md:border-maven-white p-4">
                     <h1 className="text-base font-semibold text-maven-blue">Responsible</h1>
-                    <p className="text-sm">We take ownership and are committed in action and words to what we do. The impact we make is always the result of the collective</p>
+                    <p className="text-sm">We take ownership and are committed in action and words to what we do. The impact we make is always the result of the collective.</p>
                     </li>
                   </ul>
                 </div>
