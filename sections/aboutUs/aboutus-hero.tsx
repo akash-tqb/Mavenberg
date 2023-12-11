@@ -10,7 +10,7 @@ export default function AboutUsHero() {
             <span className=" text-maven-blue ">Us</span>
           </h1>
           <h3 className="text-maven-white text-justify">
-          We are a team of seasoned professionals and curious youngsters striving to connect voluminous data stored in various systems used by the customers. Having worked with global customers who manufacture wide variety of products, we excel in PLM consulting, implementation, migration, integrating enterprise applications, and providing application support. In the last 4 years, we have partnered with more than 20 customers in their digitalization journey
+          We are a team of seasoned professionals and curious youngsters striving to connect voluminous data stored in various systems used by the customers. Having worked with global customers who manufacture wide variety of products, we excel in PLM consulting, implementation, migration, integrating enterprise applications, and providing application support. In the last 4 years, we have partnered with more than 20 customers in their digitalization journey.
           </h3>
         </div>
         <div className="flex flex-col items-center p-4 justify-center">
