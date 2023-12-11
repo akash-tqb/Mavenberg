@@ -19,7 +19,7 @@ export default function Products() {
           </h1>
           <h3 className="text-maven-white">
             Discover and harness the potential of your data scattered across
-            disparate systems using our product offerings
+            disparate systems using our product offerings.
           </h3>
         </div>
       </div>
@@ -54,7 +54,7 @@ export default function Products() {
                     <p className="text-maven-white">
                       Platform that bridges the gap across heterogeneous
                       functions by seamlessly integrating, migrating and
-                      synchronizing data between the applications
+                      synchronizing data between the applications.
                     </p>{" "}
                   </div>
                   <div className="flex flex-row gap-2">
@@ -118,7 +118,7 @@ export default function Products() {
                     </h1>
                     <p className="text-maven-white">
                       Amalgamation of lean PLM & ERP application to empower
-                      Small and Medium Business Units{" "}
+                      Small and Medium Business Units.{" "}
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -172,7 +172,7 @@ export default function Products() {
                     </h1>
                     <p className="text-maven-white">
                       Visualize all software usages to optimize and maximize
-                      your ROI
+                      your ROI.
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -227,7 +227,7 @@ export default function Products() {
                     </h1>
                     <p className="text-maven-white">
                       Seamlessly manage concept created using Autodesk Alias,
-                      within Teamcenter
+                      within Teamcenter.
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -283,7 +283,7 @@ export default function Products() {
                     </h1>
                     <p className="text-maven-white">
                       Visualize a digital twin augmented with real-time
-                      information
+                      information.
                     </p>
                   </div>
                   <div className="flex flex-row gap-2">
