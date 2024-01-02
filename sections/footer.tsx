@@ -386,7 +386,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-maven-blue lg:flex-row">
           <p className="text-sm text-maven-white">
-            © Copyright 2023 Mavenberg Innovation India Pvt Ltd. All rights
+            © Copyright 2024 Mavenberg Innovations India Pvt Ltd. All rights
             reserved.
           </p>
         </div>
