@@ -8,7 +8,7 @@ export default function SimulationServices1() {
             Services
           </span>
         </h1>
-        <h1 className="mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-maven-white sm:text-4xl md:mx-auto">
+        <h1 className="mb-6  text-3xl font-bold leading-none tracking-tight text-maven-white sm:text-4xl md:mx-auto">
           Elevate Your{" "}
           <span className="text-maven-blue">Manufacturing Processes</span>
         </h1>

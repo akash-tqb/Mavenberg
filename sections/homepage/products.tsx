@@ -14,7 +14,7 @@ export default function Products() {
     >
       <div className="flex flex-row justify-between" data-aos="fade-down">
         <div className="flex flex-col mb-12">
-          <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+          <h1 className="sm:text-4xl mb-6 text-3xl font-bold tracking-wide text-maven-white">
             Our <span className=" text-maven-blue">Products</span>
           </h1>
           <h3 className="text-maven-white">

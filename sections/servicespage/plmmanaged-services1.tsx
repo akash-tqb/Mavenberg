@@ -8,7 +8,7 @@ export default function PlmManagedServices1() {
             Managed Services
           </span>
         </h1>
-        <h1 className="mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-maven-blue sm:text-4xl md:mx-auto">
+        <h1 className="mb-6  text-3xl font-bold leading-none tracking-tight text-maven-blue sm:text-4xl md:mx-auto">
           Cloud <span className="text-maven-white">Infrastructure</span>
         </h1>
         <p className="text-maven-white">

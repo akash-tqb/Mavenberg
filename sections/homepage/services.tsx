@@ -14,7 +14,7 @@ export default function Services() {
       className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
     >
       <div className="mb-12"  data-aos='fade-down' data-aos-easing='ease-in'>
-        <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white text-justify">
+        <h1 className="sm:text-4xl mb-6 text-3xl font-bold tracking-wide text-maven-white text-justify">
           Our <span className=" text-maven-blue">Services</span>
         </h1>
         <h3 className="text-maven-white text-justify">

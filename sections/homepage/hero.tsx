@@ -21,7 +21,7 @@ export default function Hero() {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="flex flex-col gap-12 lg:gap-0 justify-between lg:flex-row">
         <div className="lg:w-1/2 flex flex-col gap-12 items-center">
-          <h1 className="mb-10 font-sans text-xl text-center font-bold text-maven-white sm:text-4xl leading-8">
+          <h1 className="mb-10 text-xl text-center font-bold text-maven-white sm:text-4xl leading-8">
             Digitize Your Business with Our{" "}
             <span
               className={`inline-block bg-clip-text  ${

@@ -10,7 +10,7 @@ export default function EngineeringServices1() {
            Automation
           </span>
         </h1>
-        <h1 className="mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-maven-white sm:text-4xl md:mx-auto">
+        <h1 className="mb-6  text-3xl font-bold leading-none tracking-tight text-maven-white sm:text-4xl md:mx-auto">
           CAD Data Conversion:{' '}<span className="text-maven-blue">Seamlessly Transition into the Future</span> 
         </h1>
         <p className="text-maven-white">

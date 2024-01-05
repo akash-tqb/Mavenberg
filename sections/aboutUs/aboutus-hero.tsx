@@ -5,7 +5,7 @@ export default function AboutUsHero() {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
       <div className="flex flex-col gap-12 justify-between lg:flex-row mb-20">
         <div className="flex flex-col max-w-xl">
-          <h1 className="sm:text-4xl mb-6 text-3xl font-sans font-bold tracking-wide text-maven-white">
+          <h1 className="sm:text-4xl mb-6 text-3xl  font-bold tracking-wide text-maven-white">
             About{' '}
             <span className=" text-maven-blue ">Us</span>
           </h1>
@@ -37,28 +37,28 @@ export default function AboutUsHero() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className=" relative border md:m-0 border-maven-white rounded p-8 z-40 bg-maven-bg">
-          <h1 className="sm:text-5xl mb-6 text-3xl font-sans justify-center flex font-bold tracking-wide text-maven-orange">
+          <h1 className="sm:text-5xl mb-6 text-3xl  justify-center flex font-bold tracking-wide text-maven-orange">
             70+
           </h1>
-          <h3 className="sm:text-3xl mb-3 mt-6 text-xl justify-center flex font-sans font-bold tracking-wide text-maven-white">
+          <h3 className="sm:text-3xl mb-3 mt-6 text-xl justify-center flex  font-bold tracking-wide text-maven-white">
             Employees
           </h3>
           <div className="absolute h-20 w-20 hidden md:block bg-maven-blue rounded-full top-[-20%] left-[-10%]"></div>
         </div>
         <div className="relative border  md:m-0 border-maven-white rounded p-8 z-20 bg-maven-bg">
-          <h1 className="sm:text-5xl mb-6 text-3xl font-sans justify-center flex font-bold tracking-wide text-maven-blue">
+          <h1 className="sm:text-5xl mb-6 text-3xl  justify-center flex font-bold tracking-wide text-maven-blue">
             20+
           </h1>
-          <h3 className="sm:text-3xl mb-3 mt-6 text-xl justify-center flex font-sans font-bold tracking-wide text-maven-white">
+          <h3 className="sm:text-3xl mb-3 mt-6 text-xl justify-center flex  font-bold tracking-wide text-maven-white">
             Customers
           </h3>
           <div className="absolute h-20 w-20 hidden lg:block bg-maven-orange rounded-sm top-[80%] left-[-15%]"></div>
         </div>
         <div className="relative border md:m-0 md:col-span-2 lg:col-span-1 border-maven-white rounded p-8">
-          <h1 className="sm:text-5xl mb-6 text-3xl font-sans justify-center flex font-bold tracking-wide text-maven-orange">
+          <h1 className="sm:text-5xl mb-6 text-3xl  justify-center flex font-bold tracking-wide text-maven-orange">
             30+
           </h1>
-          <h3 className="sm:text-3xl mb-3 mt-6 text-xl justify-center flex font-sans font-bold tracking-wide text-maven-white">
+          <h3 className="sm:text-3xl mb-3 mt-6 text-xl justify-center flex  font-bold tracking-wide text-maven-white">
             Projects
           </h3>
           <div className="absolute h-20 w-20 hidden lg:block bg-maven-orange rounded-sm top-[-20%] left-[-15%]"></div>

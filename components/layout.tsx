@@ -7,7 +7,7 @@ interface LayoutProps {
 }
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="layout">
+    <div className="layout font-cals">
       <Navbar />
       <main className="bg-maven-bg">{children}</main>
       <Footer />
